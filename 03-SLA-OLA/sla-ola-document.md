@@ -131,7 +131,7 @@ Root cause remediation may continue separately under Problem Management.
 | Business Applications (CRM, ERP) | 99.0% uptime | Monthly |
 | File Storage / Shared Drives | 99.5% uptime | Monthly |
 | VPN Services | 99.0% uptime | Monthly |
-| Businesss Applications | 99.0% uptime | Montly |
+| Businesss Applications | 99.0% uptime | Monthly |
 
 ##
 
@@ -361,7 +361,7 @@ Improvement opportunities are identified through:
 | Principle	| Application |
 |:----------|:------------|
 | Focus on Value	| Service targets prioritize business continuity and productivity |
-| Collaborate and Promote Visibility	| SLA/OLA define clear operational ownership |
+| Collaborate and Promote Visibility	| SLA / OLA define clear operational ownership |
 | Keep It Simple and Practical	| Targets are measurable and operationally realistic |
 | Start Where You Are	| Targets based on current support capability and staffing |
 
@@ -388,7 +388,7 @@ Continual Improvement Register
 ### Watermelon SLA — Anti-Pattern Note
 
 A **Watermelon SLA** occurs when metrics appear green (targets met) but the customer is actually unhappy. 
-To prevent this at Northgate Solutions, SLA performance is reviewed alongside quarterly user satisfaction surveys. 
+To prevent this at Richmond Solutions, SLA performance is reviewed alongside quarterly user satisfaction surveys. 
 If survey scores are low despite targets being met, the metrics themselves are reviewed for relevance.
 
 ##
