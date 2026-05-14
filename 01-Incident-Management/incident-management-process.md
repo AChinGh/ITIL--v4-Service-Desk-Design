@@ -10,6 +10,7 @@ Owner: Service Desk Team
 Practice Area: Incident Management, Service Desk Operations, Event Monitoring
 
 ---
+
 ### 1. Purpose
 
 The purpose of this process is to restore normal IT service operation as quickly as possible following an unplanned disruption, while minimizing impact to business operations at Richmond Solutions Inc.
