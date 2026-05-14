@@ -73,9 +73,6 @@ The IT department provides operational support for:
 - Printers and peripherals
 - Onboarding and offboarding support
 
-
-
-
 ### 4.1. Service Hours
 
 | Service | Hours |
@@ -176,8 +173,6 @@ If SLA targets are not being met:
 3. IT Manager reviews, responds within 24 hours with resolution plan
 4. If unresolved after 5 business days → formal review meeting with department head
 
-
-
 ##
 
 ### 4.7. Major Incident Management
@@ -266,16 +261,26 @@ To avoid this:
 **Purpose:** Define what the networking team commits to deliver in support of the SLA above  
 **Review Cycle:** Quarterly
 
-##
+---
 
-### 5.1. Scope
+### 5.1 Purpose of OLA
+
+The OLA defines operational commitments between internal IT teams to support SLA achievement.
+
+This agreement primarily governs:
+- Service Desk operations
+- Networking support
+- Infrastructure escalation
+- Coordination during incidents and changes
+
+### 5.2. Scope
 
 This OLA covers the networking team's responsibilities in supporting incident resolution 
 and service delivery for network-related issues at Richmond Solutions.
 
 ##
 
-### 5.2. Networking Team Commitments
+### 5.3. Networking Team Commitments
 
 | Obligation | Target |
 |:-----------|:-------|
@@ -289,22 +294,85 @@ and service delivery for network-related issues at Richmond Solutions.
 
 ##
 
-### 5.3. Service Desk Commitments
+### 5.4. Service Desk Commitments
 
-| Obligation | Target |
-|:-----------|:-------|
+| Responsibility | Target |
+|:---------------|:-------|
 | Provide complete incident details when escalating to networking | At time of escalation |
-| Notify networking of approved change requests affecting network | Minimum 24 hours in advance |
 | Update tickets with networking resolution notes | Within 1 hour of resolution |
+| Maintain ticket documentation | Continuous |
+| Notify networking of approved change requests affecting network | Minimum 24 hours in advance |
+| Escalate SLA risks promptly | Before breach occurs |
+
 
 ##
 
-### 5.4. Escalation
+### 5.5. Escalation
 
 If OLA targets are not met, the service desk escalates to the IT Manager who will 
 coordinate resolution between teams.
 
 ##
+
+### 5.5. Change Coordination Responsibilities
+
+Internal IT teams must:
+- Review change schedules weekly
+- Assess operational risk before implementation
+- Communicate service impacts
+- Update documentation following changes
+
+##
+
+### 5.6. Security & Compliance Considerations
+
+Operational support activities must:
+- Follow least privilege principles
+- Maintain audit traceability
+- Preserve change documentation
+- Comply with organizational security controls
+
+Administrative actions affecting:
+- Identity systems
+- Conditional access policies
+- Remote access infrastructure
+- Require documented approval and logging.
+
+##
+
+### 5.7. Continual Improvement Integration
+
+SLA and OLA performance data feed into:
+- Continual Improvement Register
+- Problem Management reviews
+- Knowledge Base updates
+- Staffing and operational planning
+
+Improvement opportunities are identified through:
+- SLA breaches
+- Recurring incidents
+- High-volume request categories
+- Customer satisfaction trends
+
+##
+
+### 5.8. ITIL v4 Guiding Principles Applied
+
+| Principle	| Application |
+|:----------|:------------|
+| Focus on Value	| Service targets prioritize business continuity and productivity |
+| Collaborate and Promote Visibility	| SLA/OLA define clear operational ownership |
+| Keep It Simple and Practical	| Targets are measurable and operationally realistic |
+| Start Where You Are	| Targets based on current support capability and staffing |
+
+##
+
+### 5.9. Related Documents
+Incident Management Process
+Service Request Catalogue
+Problem Management Register
+Change Management Procedure
+Continual Improvement Register
 
 ### ITIL v4 Guiding Principles Applied
 
@@ -319,7 +387,9 @@ coordinate resolution between teams.
 
 ### Watermelon SLA — Anti-Pattern Note
 
-A **Watermelon SLA** occurs when metrics appear green (targets met) but the customer is actually unhappy. To prevent this at Northgate Solutions, SLA performance is reviewed alongside quarterly user satisfaction surveys. If survey scores are low despite targets being met, the metrics themselves are reviewed for relevance.
+A **Watermelon SLA** occurs when metrics appear green (targets met) but the customer is actually unhappy. 
+To prevent this at Northgate Solutions, SLA performance is reviewed alongside quarterly user satisfaction surveys. 
+If survey scores are low despite targets being met, the metrics themselves are reviewed for relevance.
 
 ##
 
