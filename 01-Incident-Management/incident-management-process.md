@@ -211,7 +211,7 @@ Tier 2 - Senior IT Analyst
 ### Escalation Types
 
 | Type | When to Use |
-|:----:|:-----------:|
+|:-----|:------------|
 | **Functional** | Issue beyond current analyst's technical expertise |
 | **Hierarchical** | SLA at risk, major incident, executive affected, security breach |
 
