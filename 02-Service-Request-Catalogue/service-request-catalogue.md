@@ -4,7 +4,7 @@
 **Document Version:** 1.1  
 **Last Updated:** 2026  
 **Owner:** IT Support Team  
-**ITIL Practice:** Service Request Management, Service Desk, Service Level Management
+**ITIL Practice Area:** Service Request Management, Service Desk, Service Level Management
 
 ---
 
