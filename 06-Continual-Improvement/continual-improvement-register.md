@@ -104,8 +104,6 @@ Implement Microsoft Entra ID Self-Service Password Reset (SSPR) to enable users 
 
 The objective is to reduce high-volume password reset tickets, improve user experience, and increase Service Desk operational efficiency.
 
-##
-
 ### Business Justification
 
 Password reset requests currently represent a significant percentage of incoming tickets.
@@ -117,12 +115,10 @@ Benefits include:
 - Increased Service Desk Availability
 - Reduced Manual Administrative Work
 
-##
-
 ### Success Metrics
 
 | Metric | Target |
-|---|---|
+|:-------|:-------|
 | Password Reset Tickets | Reduced By 70% |
 | User Adoption Rate | >80% |
 | Average Password Reset Time | <5 Minutes |
@@ -132,14 +128,12 @@ Benefits include:
 ### CIR-002 — Knowledge Base Development
 
 | Field | Details |
-|---|---|
+|:------|:--------|
 | Improvement ID | CIR-002 |
 | Priority | High |
 | Status | Not Started |
 | Owner | Service Desk Analyst |
 | Target Date | 2026-03-15 |
-
-##
 
 ### Description
 
@@ -152,9 +146,7 @@ Knowledge articles will include:
 - Escalation Guidance
 - Self-Service Instructions
 
----
-
-## Business Justification
+### Business Justification
 
 A structured knowledge base supports:
 - Faster Incident Resolution
@@ -163,12 +155,10 @@ A structured knowledge base supports:
 - User Self-Service Capability
 - Consistent Troubleshooting Processes
 
-##
-
 ### Success Metrics
 
 | Metric | Target |
-|---|---|
+|:-------|:-------|
 | Published Knowledge Articles | 15 |
 | Repeat Incident Reduction | 20% |
 | First Contact Resolution | Increase To 80% |
@@ -185,8 +175,6 @@ A structured knowledge base supports:
 | Owner | IT Manager |
 | Target Date | 2026-02-05 |
 
-##
-
 ### Description
 
 Introduce monthly SLA review meetings involving:
@@ -201,8 +189,6 @@ Meetings review:
 - Improvement Priorities
 - Major Incident Analysis
 
-##
-
 ### Business Justification
 
 Regular review meetings improve:
@@ -210,8 +196,6 @@ Regular review meetings improve:
 - Communication
 - Accountability
 - Service Alignment With Business Needs
-
-##
 
 ### Success Metrics
 
@@ -233,8 +217,6 @@ Regular review meetings improve:
 | Owner | Senior IT Analyst |
 | Target Date | 2026-03-01 |
 
-###
-
 ### Description
 
 Implement proactive monitoring across:
@@ -251,8 +233,6 @@ Monitoring thresholds will detect:
 - Service Availability
 - Network Latency
 
-##
-
 ### Business Justification
 
 Current monitoring is largely reactive.
@@ -263,8 +243,6 @@ Improved monitoring supports:
 - Improved Stability
 - Reduced Major Incidents
 - Better Operational Visibility
-
-##
 
 ### Success Metrics
 
@@ -286,8 +264,6 @@ Improved monitoring supports:
 | Owner | IT Manager |
 | Target Date | 2026-Q3 |
 
-##
-
 ### Description
 
 Implement automated onboarding workflows integrating:
@@ -296,8 +272,6 @@ Implement automated onboarding workflows integrating:
 - Hardware Assignment
 - Ticket Creation
 - Access Requests
-
-##
 
 ### Business Justification
 
@@ -309,8 +283,6 @@ Automation improves:
 - Efficiency
 - Auditability
 - User Readiness
-
-##
 
 ### Success Metrics
 
@@ -332,8 +304,6 @@ Automation improves:
 | Owner | IT Manager |
 | Target Date | 2026-Q2 |
 
-##
-
 ### Description
 
 Introduce quarterly security awareness sessions covering:
@@ -342,8 +312,6 @@ Introduce quarterly security awareness sessions covering:
 - Acceptable Use Policies
 - MFA Awareness
 - Social Engineering Risks
-
-##
 
 ### Business Justification
 
@@ -354,8 +322,6 @@ Improved awareness reduces:
 - Credential Exposure
 - User Error
 - Social Engineering Success Rates
-
-##
 
 ### Success Metrics
 
@@ -377,8 +343,6 @@ Improved awareness reduces:
 | Owner | Senior IT Analyst |
 | Target Date | 2026-03-31 |
 
-##
-
 ### Description
 
 Conduct a full review of the Configuration Management Database (CMDB).
@@ -390,8 +354,6 @@ Activities include:
 - Reviewing Ownership Information
 - Reconciling Asset Records
 
-##
-
 ### Business Justification
 
 Accurate CMDB data improves:
@@ -400,8 +362,6 @@ Accurate CMDB data improves:
 - Impact Analysis
 - Asset Tracking
 - Operational Visibility
-
-##
 
 ### Success Metrics
 
@@ -423,8 +383,6 @@ Accurate CMDB data improves:
 | Owner | IT Manager |
 | Target Date | 2026-04-01 |
 
-##
-
 ### Description
 
 Formalize PIR procedures for:
@@ -440,8 +398,6 @@ PIRs will document:
 - Improvement Opportunities
 - Process Gaps
 
-##
-
 ### Business Justification
 
 Structured PIRs support:
@@ -449,8 +405,6 @@ Structured PIRs support:
 - Reduced Failure Rates
 - Improved Risk Management
 - Better Operational Learning
-
-##
 
 ### Success Metrics
 
@@ -466,14 +420,14 @@ Structured PIRs support:
 
 | ID | Improvement | Priority | Status | Owner | Target Date |
 |:---|:------------|:---------|:-------|:------|:------------|
-| CIR-001 | Self-Service Password Reset | High | In Progress | Senior IT Analyst | 2026 - 02 - 28 |
-| CIR-002 | Knowledge Base Development | High | Not Started | Service Desk Analyst | 2026 - 03 - 15 |
-| CIR-003 | Monthly SLA Review Meetings | High | Scheduled | IT Manager | 2026 - 02 - 05 |
-| CIR-004 | Proactive Monitoring | High | In Progress | Senior IT Analyst | 2026 - 03 - 01 |
-| CIR-005 | Automated User Onboarding | Medium | Not Started | IT Manager | 2026 - Q3 |
-| CIR-006 | Security Awareness Training | Medium | Not Started | IT Manager | 2026 - Q2 |
-| CIR-007 | CMDB Review & Cleanup | Medium | Not Started | Senior IT Analyst | 2026 - 03 - 31 |
-| CIR-008 | Formal PIR Process | Low | Not Started | IT Manager | 2026 - 04 - 01 |
+| CIR-001 | Self-Service Password Reset | High | In Progress | Senior IT Analyst | 2026-02-28 |
+| CIR-002 | Knowledge Base Development | High | Not Started | Service Desk Analyst | 2026-03-15 |
+| CIR-003 | Monthly SLA Review Meetings | High | Scheduled | IT Manager | 2026-02-05 |
+| CIR-004 | Proactive Monitoring | High | In Progress | Senior IT Analyst | 2026-03-01 |
+| CIR-005 | Automated User Onboarding | Medium | Not Started | IT Manager | 2026-Q3 |
+| CIR-006 | Security Awareness Training | Medium | Not Started | IT Manager | 2026-Q2 |
+| CIR-007 | CMDB Review & Cleanup | Medium | Not Started | Senior IT Analyst | 2026-03-31 |
+| CIR-008 | Formal PIR Process | Low | Not Started | IT Manager | 2026-04-01 |
 
 ---
 
