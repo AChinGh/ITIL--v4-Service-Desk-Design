@@ -2,9 +2,12 @@
 ### Richmond Solutions Inc. — IT Service Management
 
 Document Version: 1.1
+
 Last Updated: 2026
+
 Owner: IT Manager
-Practice Area: Service Level Management, Relationship Management
+
+ITIL Practice Area: Service Level Management, Relationship Management
 
 ---
 
