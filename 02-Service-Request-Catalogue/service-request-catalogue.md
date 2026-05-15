@@ -70,28 +70,19 @@ Service requests are:
 
 ### 5. Service Request Workflow
 
+```text
 Request Submitted
-
 ↓
-
 Service Desk Review
-
 ↓
-
 Approval Validation (if required)
-
 ↓
-
 Request Fulfilment
-
 ↓
-
 User Confirmation
-
 ↓
-
 Ticket Closure
-
+```
 
 ---
 
@@ -154,27 +145,19 @@ New User Account Provisioning
 
 ### Standard Fulfilment Procedure
 
+```text
 Submit Request (Portal / Email / Phone)
-
 ↓
-
 Service Desk logs ticket and confirms receipt (within 1 hour)
-
 ↓
-
 Approval obtained (if required)
-
 ↓
-
 Fulfilment by Service Desk analyst
-
 ↓
-
 Confirmation sent to requester
-
 ↓
-
 Ticket closed
+```
 
 ---
 
