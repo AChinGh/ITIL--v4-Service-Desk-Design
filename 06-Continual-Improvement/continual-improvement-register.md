@@ -4,11 +4,11 @@
 **Document Version:** 1.1  
 **Last Updated:** 2026  
 **Owner:** IT Manager  
-**Practice Area:** Continual Improvement, Service Level Management  
+** ITIL Practice Area:** Continual Improvement, Service Level Management  
 
 ---
 
-# 1. Purpose
+### 1. Purpose
 
 The Continual Improvement Register (CIR) is used to identify, prioritize, track, and measure improvement opportunities across IT services at Richmond Solutions Inc.
 
@@ -24,7 +24,7 @@ The CIR supports proactive service improvement rather than reactive operational 
 
 ---
 
-# 2. Scope
+### 2. Scope
 
 The Continual Improvement process applies to:
 - Service Desk Operations
@@ -40,7 +40,7 @@ The Continual Improvement process applies to:
 
 ---
 
-# 3. Continual Improvement Objectives
+### 3. Continual Improvement Objectives
 
 The objectives of the CIR are to:
 - Reduce Repeated Incidents
@@ -55,12 +55,12 @@ The objectives of the CIR are to:
 
 ---
 
-# 4. ITIL v4 Continual Improvement Model
+### 4. ITIL v4 Continual Improvement Model
 
 All improvement initiatives follow the ITIL v4 continual improvement model.
 
 | Step | Key Question | Richmond Solutions Application |
-|---|---|---|
+|:-----|:-------------|:-------------------------------|
 | 1 | What Is The Vision? | Reliable and efficient IT services supporting business productivity |
 | 2 | Where Are We Now? | Current operational metrics reviewed monthly |
 | 3 | Where Do We Want To Be? | Defined targets established for each improvement |
@@ -71,10 +71,10 @@ All improvement initiatives follow the ITIL v4 continual improvement model.
 
 ---
 
-# 5. Current Operational Baseline
+### 5. Current Operational Baseline
 
 | Metric | Current State (2026 Baseline) |
-|---|---|
+|:-------|:------------------------------|
 | Monthly Ticket Volume | ~120 Tickets |
 | First Contact Resolution | 72% |
 | Major Incidents Last Quarter | 2 |
@@ -84,23 +84,21 @@ All improvement initiatives follow the ITIL v4 continual improvement model.
 
 ---
 
-# 6. Continual Improvement Register
+### 6. Continual Improvement Register
 
----
-
-# CIR-001 — Self-Service Password Reset Implementation
+### CIR-001 — Self-Service Password Reset Implementation
 
 | Field | Details |
-|---|---|
+|:------|:--------|
 | Improvement ID | CIR-001 |
 | Priority | High |
 | Status | In Progress |
 | Owner | Senior IT Analyst |
 | Target Date | 2026-02-28 |
 
----
+##
 
-## Description
+### Description
 
 Implement self-service password reset capability using:
 - :contentReference[oaicite:0]{index=0}
@@ -108,9 +106,9 @@ Implement self-service password reset capability using:
 
 This initiative allows users to reset passwords without contacting the Service Desk.
 
----
+##
 
-## Business Justification
+### Business Justification
 
 Password reset requests currently represent a significant percentage of incoming tickets.
 
@@ -121,9 +119,9 @@ Benefits include:
 - Increased Service Desk Availability
 - Reduced Manual Administrative Work
 
----
+##
 
-## Success Metrics
+### Success Metrics
 
 | Metric | Target |
 |---|---|
@@ -131,9 +129,9 @@ Benefits include:
 | User Adoption Rate | >80% |
 | Average Password Reset Time | <5 Minutes |
 
----
+##
 
-# CIR-002 — Knowledge Base Development
+### CIR-002 — Knowledge Base Development
 
 | Field | Details |
 |---|---|
@@ -143,9 +141,9 @@ Benefits include:
 | Owner | Service Desk Analyst |
 | Target Date | 2026-03-15 |
 
----
+##
 
-## Description
+### Description
 
 Develop knowledge articles for the top recurring incidents affecting staff.
 
@@ -167,9 +165,9 @@ A structured knowledge base supports:
 - User Self-Service Capability
 - Consistent Troubleshooting Processes
 
----
+##
 
-## Success Metrics
+### Success Metrics
 
 | Metric | Target |
 |---|---|
@@ -177,21 +175,21 @@ A structured knowledge base supports:
 | Repeat Incident Reduction | 20% |
 | First Contact Resolution | Increase To 80% |
 
----
+##
 
-# CIR-003 — Monthly SLA Review Meetings
+### CIR-003 — Monthly SLA Review Meetings
 
 | Field | Details |
-|---|---|
+|:------|:--------|
 | Improvement ID | CIR-003 |
 | Priority | High |
 | Status | Scheduled |
 | Owner | IT Manager |
 | Target Date | 2026-02-05 |
 
----
+##
 
-## Description
+### Description
 
 Introduce monthly SLA review meetings involving:
 - IT Management
@@ -205,9 +203,9 @@ Meetings review:
 - Improvement Priorities
 - Major Incident Analysis
 
----
+##
 
-## Business Justification
+### Business Justification
 
 Regular review meetings improve:
 - Visibility
@@ -215,31 +213,31 @@ Regular review meetings improve:
 - Accountability
 - Service Alignment With Business Needs
 
----
+##
 
-## Success Metrics
+### Success Metrics
 
 | Metric | Target |
-|---|---|
+|:-------|:-------|
 | SLA Review Attendance | >90% |
 | User Satisfaction Score | Improved Quarterly |
 | SLA Breaches | Reduced By 25% |
 
----
+##
 
-# CIR-004 — Proactive Infrastructure Monitoring
+### CIR-004 — Proactive Infrastructure Monitoring
 
 | Field | Details |
-|---|---|
+|:------|:--------|
 | Improvement ID | CIR-004 |
 | Priority | High |
 | Status | In Progress |
 | Owner | Senior IT Analyst |
 | Target Date | 2026-03-01 |
 
----
+###
 
-## Description
+### Description
 
 Implement proactive monitoring across:
 - File Servers
@@ -255,9 +253,9 @@ Monitoring thresholds will detect:
 - Service Availability
 - Network Latency
 
----
+##
 
-## Business Justification
+### Business Justification
 
 Current monitoring is largely reactive.
 
@@ -268,31 +266,31 @@ Improved monitoring supports:
 - Reduced Major Incidents
 - Better Operational Visibility
 
----
+##
 
-## Success Metrics
+### Success Metrics
 
 | Metric | Target |
-|---|---|
+|:-------|:-------|
 | Proactive Incident Detection | 80% |
 | P1/P2 Incident Reduction | 30% |
 | Monitoring Coverage | 100% Critical Systems |
 
----
+##
 
-# CIR-005 — Automated User Onboarding Workflow
+### CIR-005 — Automated User Onboarding Workflow
 
 | Field | Details |
-|---|---|
+|:------|:--------|
 | Improvement ID | CIR-005 |
 | Priority | Medium |
 | Status | Not Started |
 | Owner | IT Manager |
 | Target Date | 2026-Q3 |
 
----
+##
 
-## Description
+### Description
 
 Implement automated onboarding workflows integrating:
 - HR Intake Processes
@@ -301,9 +299,9 @@ Implement automated onboarding workflows integrating:
 - Ticket Creation
 - Access Requests
 
----
+##
 
-## Business Justification
+### Business Justification
 
 Current onboarding tasks are manually coordinated and occasionally inconsistent.
 
@@ -314,9 +312,9 @@ Automation improves:
 - Auditability
 - User Readiness
 
----
+##
 
-## Success Metrics
+### Success Metrics
 
 | Metric | Target |
 |---|---|
@@ -324,21 +322,21 @@ Automation improves:
 | Average Onboarding Time | Reduced By 40% |
 | Automation Coverage | 100% New Hires |
 
----
+##
 
-# CIR-006 — Security Awareness Training Program
+### CIR-006 — Security Awareness Training Program
 
 | Field | Details |
-|---|---|
+|:------|:--------|
 | Improvement ID | CIR-006 |
 | Priority | Medium |
 | Status | Not Started |
 | Owner | IT Manager |
 | Target Date | 2026-Q2 |
 
----
+##
 
-## Description
+### Description
 
 Introduce quarterly security awareness sessions covering:
 - Phishing
@@ -347,9 +345,9 @@ Introduce quarterly security awareness sessions covering:
 - MFA Awareness
 - Social Engineering Risks
 
----
+##
 
-## Business Justification
+### Business Justification
 
 Recent phishing-related incidents identified the need for increased user awareness.
 
@@ -359,19 +357,19 @@ Improved awareness reduces:
 - User Error
 - Social Engineering Success Rates
 
----
+##
 
-## Success Metrics
+### Success Metrics
 
 | Metric | Target |
-|---|---|
+|:-------|:-------|
 | Training Participation | >95% |
 | Phishing Incidents | Reduced By 50% |
 | User Awareness Survey Score | Improved Quarterly |
 
----
+##
 
-# CIR-007 — CMDB Review & Cleanup
+### CIR-007 — CMDB Review & Cleanup
 
 | Field | Details |
 |---|---|
@@ -381,9 +379,9 @@ Improved awareness reduces:
 | Owner | Senior IT Analyst |
 | Target Date | 2026-03-31 |
 
----
+##
 
-## Description
+### Description
 
 Conduct a full review of the Configuration Management Database (CMDB).
 
@@ -394,9 +392,9 @@ Activities include:
 - Reviewing Ownership Information
 - Reconciling Asset Records
 
----
+##
 
-## Business Justification
+### Business Justification
 
 Accurate CMDB data improves:
 - Change Assessments
@@ -405,9 +403,9 @@ Accurate CMDB data improves:
 - Asset Tracking
 - Operational Visibility
 
----
+##
 
-## Success Metrics
+### Success Metrics
 
 | Metric | Target |
 |---|---|
@@ -415,21 +413,21 @@ Accurate CMDB data improves:
 | Stale Records Removed | 100% |
 | Asset Reconciliation Completion | Complete |
 
----
+##
 
-# CIR-008 — Formal Post-Implementation Reviews (PIR)
+### CIR-008 — Formal Post-Implementation Reviews (PIR)
 
 | Field | Details |
-|---|---|
+|:------|:--------|
 | Improvement ID | CIR-008 |
 | Priority | Low |
 | Status | Not Started |
 | Owner | IT Manager |
 | Target Date | 2026-04-01 |
 
----
+##
 
-## Description
+### Description
 
 Formalize PIR procedures for:
 - High-Risk Changes
@@ -444,9 +442,9 @@ PIRs will document:
 - Improvement Opportunities
 - Process Gaps
 
----
+##
 
-## Business Justification
+### Business Justification
 
 Structured PIRs support:
 - Better Change Quality
@@ -454,22 +452,22 @@ Structured PIRs support:
 - Improved Risk Management
 - Better Operational Learning
 
----
+##
 
-## Success Metrics
+### Success Metrics
 
 | Metric | Target |
-|---|---|
+|:-------|:-------|
 | Change Failure Rate | <5% |
 | PIR Completion Rate | 100% |
 | Repeat Failed Changes | Reduced Significantly |
 
 ---
 
-# 7. CIR Summary Dashboard
+### 7. CIR Summary Dashboard
 
 | ID | Improvement | Priority | Status | Owner |
-|---|---|---|---|---|
+|:---|:------------|:---------|:-------|:------|
 | CIR-001 | Self-Service Password Reset | High | In Progress | Senior IT Analyst |
 | CIR-002 | Knowledge Base Development | High | Not Started | Service Desk Analyst |
 | CIR-003 | Monthly SLA Review Meetings | High | Scheduled | IT Manager |
@@ -481,7 +479,7 @@ Structured PIRs support:
 
 ---
 
-# 8. Monthly Review Process
+### 8. Monthly Review Process
 
 The CIR is reviewed monthly during IT operational meetings.
 
@@ -495,7 +493,7 @@ Review activities include:
 
 ---
 
-# 9. Continual Improvement Metrics
+### 9. Continual Improvement Metrics
 
 Key metrics reviewed monthly include:
 - SLA Compliance
@@ -508,10 +506,10 @@ Key metrics reviewed monthly include:
 
 ---
 
-# 10. Relationship To Other Processes
+### 10. Relationship To Other Processes
 
 | Process | Relationship |
-|---|---|
+|:--------|:-------------|
 | Incident Management | Incident trends generate improvement opportunities |
 | Problem Management | Root cause analysis identifies recurring improvements |
 | Change Management | Improvements often require approved changes |
@@ -519,10 +517,10 @@ Key metrics reviewed monthly include:
 
 ---
 
-# 11. ITIL v4 Guiding Principles Applied
+### 11. ITIL v4 Guiding Principles Applied
 
 | Principle | Application |
-|---|---|
+|:----------|:------------|
 | Focus On Value | Improvements linked directly to business outcomes |
 | Start Where You Are | Existing operational data used as baseline |
 | Progress Iteratively With Feedback | Improvements reviewed and adjusted continuously |
@@ -531,7 +529,7 @@ Key metrics reviewed monthly include:
 
 ---
 
-# 12. Related Documents
+### 12. Related Documents
 
 - Incident Management Process  
 - Service Request Catalogue  
@@ -540,16 +538,3 @@ Key metrics reviewed monthly include:
 - Change Management Procedure  
 
 ---
-
-# 13. Summary
-
-The Continual Improvement Register at Richmond Solutions Inc. provides a structured framework for identifying, tracking, and implementing operational improvements across IT services.
-
-By combining:
-- Measurable Objectives
-- Assigned Ownership
-- Regular Reviews
-- Success Metrics
-- Operational Feedback
-
-the organization supports long-term service maturity, improved user experience, and proactive IT operations.
