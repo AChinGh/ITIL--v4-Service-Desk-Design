@@ -446,19 +446,19 @@ Improvement opportunities may include:
 | Principle | Application |
 |:----------|:------------|
 | Focus on Value | Changes implemented to improve operational capability |
-| Keep It Simple and Practical | Standard changes reduce unnecessary overhead |
-| Collaborate and Promote Visibility | CAB provides operational transparency |
-| Progress Iteratively with Feedback | PIR findings improve future changes |
-| Optimize and Automate | Repeatable changes standardized wherever possible |
+| Keep It Simple and Practical | Standard changes (pre-approved) reduce unnecessary overhead |
+| Collaborate and Promote Visibility | CAB provides operational transparency - prevent conflict |
+| Progress Iteratively with Feedback | PIR findings after every normal / emergency change improves future changes |
+| Optimize and Automate | Repeatable changes standardized wherever possible - repeatable and efficient |
 
 ---
 
 ### 22. Related Documents
 
-- Incident Management Process  
-- Service Request Catalogue  
+- Incident Management Process  — failed changes that cause incidents trigger incident procedures
+- Service Request Catalogue  — CMDB updated after every implemented change
 - SLA & OLA Document  
-- Problem Management Register  
+- Problem Management Register  — resolved problems generate change requests for permanent fixes
 - Continual Improvement Register  
 
 ---
