@@ -7,7 +7,7 @@ Last Updated: 2026
 
 Owner: Service Desk Team
 
-Practice Area: Incident Management, Service Desk Operations, Event Monitoring
+ITIL Practice Area: Incident Management, Service Desk Operations, Event Monitoring
 
 ---
 
