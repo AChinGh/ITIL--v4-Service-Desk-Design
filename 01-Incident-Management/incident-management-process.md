@@ -74,8 +74,21 @@ Priority is assigned based on Impact + Urgency
 ### 5. Incident Lifecycle
 The incident lifecycle follows a structured flow:
 
-Detect &#8594; Log &#8594; Categorize &#8594; Prioritize &#8594; Investigate &#8594; Resolve &#8594; Close
-
+```text
+Detect
+↓
+Log
+↓
+Categorize
+↓
+Prioritize
+↓
+Investigate
+↓
+Resolve
+↓
+Close
+```
 
 
 ### Process Steps
@@ -190,24 +203,19 @@ For P1 / P2 incidents:
 
 ### 7. Escalation Paths
 
+```text
 User Reports Incident
-
-&#8595;
-
+↓
 Tier 1 - Service Desk Analyst
-
 ├──Resolved &#8594; Close ticket
-
 └──Not resolved within 30 min or P1 / P2 
-
-&#8595;
-
+↓
 Tier 2 - Senior IT Analyst
-
 ├──Resolved &#8594; Close ticket
-
 └──Not resolved or requires vendor / external support &#8594; IT Manager + Vendor Escalation
+```
 
+##
 
 ### Escalation Types
 
