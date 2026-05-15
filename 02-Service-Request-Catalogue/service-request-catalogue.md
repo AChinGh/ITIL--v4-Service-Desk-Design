@@ -108,7 +108,7 @@ Ticket Closure
 | **VPN Access** | Enable VPN access for remote work, MFA verification, User teting | Manager on behalf of staff | Manager + IT approval | 2 business days | Senior Analyst |
 | **Application Access** | Grant access to a specific business application | Manager on behalf of staff | Manager approval | 1 business day | Service Desk |
 
----
+##
 
 ### 6.2 Hardware
 
@@ -120,7 +120,7 @@ Ticket Closure
 | **Peripheral Request** | Keyboard, mouse, headset, webcam | All staff | Manager approval | 3 business days |  Service Desk |
 | **Printer Setup** | Connect workstation to network printer | All staff | No | 4 hours |  Service Desk |
 
----
+##
 
 ### 6.3 Software
 
@@ -129,7 +129,7 @@ Ticket Closure
 | **Standard Software Install** | Install from approved software list (Microsoft 365, Adobe Acrobat, etc.) | All staff | No | 4 hours | Service Desk |
 | **Software Licence Request** | Request a licence for approved software | Manager | Manager + IT Manager approval | 3 business days | IT Manager |
 
----
+##
 
 ### 6.4 Communication & Collaboration
 
@@ -139,7 +139,7 @@ Ticket Closure
 | **Teams Channel Setup** | Create a Microsoft Teams channel for a project or team | Manager | Manager approval | 4 hours | Service Desk |
 | **Shared Mailbox** | Create a shared mailbox for a team or function | Manager | Manager + IT approval | 1 business day | Service Desk |
 
----
+##
 
 
 ### 6.5 User Provisioning Requests
