@@ -100,11 +100,9 @@ All improvement initiatives follow the ITIL v4 continual improvement model.
 
 ### Description
 
-Implement self-service password reset capability using:
-- :contentReference[oaicite:0]{index=0}
-- :contentReference[oaicite:1]{index=1}
+Implement Microsoft Entra ID Self-Service Password Reset (SSPR) to enable users to securely reset passwords without direct Service Desk intervention.
 
-This initiative allows users to reset passwords without contacting the Service Desk.
+The objective is to reduce high-volume password reset tickets, improve user experience, and increase Service Desk operational efficiency.
 
 ##
 
@@ -466,16 +464,16 @@ Structured PIRs support:
 
 ### 7. CIR Summary Dashboard
 
-| ID | Improvement | Priority | Status | Owner |
-|:---|:------------|:---------|:-------|:------|
-| CIR-001 | Self-Service Password Reset | High | In Progress | Senior IT Analyst |
-| CIR-002 | Knowledge Base Development | High | Not Started | Service Desk Analyst |
-| CIR-003 | Monthly SLA Review Meetings | High | Scheduled | IT Manager |
-| CIR-004 | Proactive Monitoring | High | In Progress | Senior IT Analyst |
-| CIR-005 | Automated User Onboarding | Medium | Not Started | IT Manager |
-| CIR-006 | Security Awareness Training | Medium | Not Started | IT Manager |
-| CIR-007 | CMDB Review & Cleanup | Medium | Not Started | Senior IT Analyst |
-| CIR-008 | Formal PIR Process | Low | Not Started | IT Manager |
+| ID | Improvement | Priority | Status | Owner | Target Date |
+|:---|:------------|:---------|:-------|:------|:------------|
+| CIR-001 | Self-Service Password Reset | High | In Progress | Senior IT Analyst | 2026 - 02 - 28 |
+| CIR-002 | Knowledge Base Development | High | Not Started | Service Desk Analyst | 2026 - 03 - 15 |
+| CIR-003 | Monthly SLA Review Meetings | High | Scheduled | IT Manager | 2026 - 02 - 05 |
+| CIR-004 | Proactive Monitoring | High | In Progress | Senior IT Analyst | 2026 - 03 - 01 |
+| CIR-005 | Automated User Onboarding | Medium | Not Started | IT Manager | 2026 - Q3 |
+| CIR-006 | Security Awareness Training | Medium | Not Started | IT Manager | 2026 - Q2 |
+| CIR-007 | CMDB Review & Cleanup | Medium | Not Started | Senior IT Analyst | 2026 - 03 - 31 |
+| CIR-008 | Formal PIR Process | Low | Not Started | IT Manager | 2026 - 04 - 01 |
 
 ---
 
