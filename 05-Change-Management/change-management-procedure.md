@@ -155,7 +155,7 @@ Agenda:
 
 ---
 
-# 8. Change Lifecycle
+### 8. Change Lifecycle
 
 ```text
 Request Submitted
@@ -179,11 +179,9 @@ Closure
 
 ---
 
-# 9. Change Process Workflow
+### 9. Change Process Workflow
 
----
-
-## 9.1 Change Submission
+### 9.1 Change Submission
 
 All non-standard changes must include:
 - Business justification
@@ -193,9 +191,9 @@ All non-standard changes must include:
 - Risk assessment
 - Testing details
 
----
+##
 
-## 9.2 Risk Assessment
+### 9.2 Risk Assessment
 
 Risk is evaluated based on:
 - Service criticality
@@ -204,9 +202,9 @@ Risk is evaluated based on:
 - Implementation complexity
 - Rollback feasibility
 
----
+##
 
-## 9.3 Authorization
+### 9.3 Authorization
 
 Changes must receive approval before implementation.
 
@@ -215,9 +213,9 @@ Authorization depends on:
 - Operational impact
 - Affected business services
 
----
+##
 
-## 9.4 Scheduling
+### 9.4 Scheduling
 
 Approved changes are added to the change calendar.
 
@@ -228,9 +226,9 @@ Scheduling considerations:
 - Overlapping changes
 - Vendor coordination
 
----
+##
 
-## 9.5 Implementation
+### 9.5 Implementation
 
 Implementation activities must:
 - Follow documented procedures
@@ -238,9 +236,9 @@ Implementation activities must:
 - Document deviations
 - Track implementation timestamps
 
----
+##
 
-## 9.6 Validation & Closure
+### 9.6 Validation & Closure
 
 Following implementation:
 - Services must be validated
@@ -250,64 +248,89 @@ Following implementation:
 
 ---
 
-# 10. Emergency Change Process
+### 10. Normal Change Process
+
+```text
+Identify need
+↓
+Submit Change Request Form (below)
+↓
+IT Manager Initial Review (24 hours)
+↓
+CAB Review (if required) — Tuesday meeting
+↓
+Authorized?
+├── Yes → Schedule on Change Schedule → Implement → PIR → Close
+└── No  → Return to Requester with Feedback
+```
+
+---
+
+### 11. Standard Change Process
+
+```text
+Identify need
+↓
+Verify it is on the Standard Change Register
+↓
+Follow Documented Procedure
+↓
+Update CMDB
+↓
+Close Ticket
+```
+
+##
+
+### Standard Change Register
+
+| Change ID | Description | Procedure Reference | Owner |
+|:----------|:------------|:--------------------|:------|
+| SC-001 | Password Reset | Service Request Catalogue — Cat 1 | Service Desk |
+| SC-002 | Account Unlock | Service Request Catalogue — Cat 1 | Service Desk |
+| SC-003 | Standard Software Install | Software Install SOP | Service Desk |
+| SC-004 | Distribution Group Update | Email Admin SOP | Service Desk |
+| SC-005 | Printer Configuration | Printer Setup SOP | Service Desk |
+| SC-006 | Routine Endpoint Patching | Patch Management SOP | Senior IT Analyst |
+| SC-007 | Teams Channel Creation | M365 Admin SOP | Service Desk |
+
+---
+
+### 12. Emergency Change Process
 
 Emergency changes follow an accelerated process.
 
 ```text
 Critical Issue Identified
 ↓
+Immediate IT Manager Notification
+↓
 Emergency CAB Notification
 ↓
 Rapid Risk Assessment
 ↓
-Authorization
-↓
-Immediate Implementation
-↓
-Post-Implementation Review
+Authorized?
+├── Yes → Immediate Implemention → Document Retrospectively (Approval evidence + Rollback Planning) → PIR within 48 hours
+└── No  → Escalate / Alternative Approach
 ↓
 Documentation Completion
 ```
 
 ---
 
-## Emergency Change Requirements
+### 13. Sample Change Schedule
 
-Even during emergency implementation:
-- Approval evidence must be documented
-- Rollback planning must exist
-- PIR must occur within 48 hours
-
----
-
-# 11. Standard Change Register
-
-| Change ID | Description | Owner |
-|---|---|---|
-| SC-001 | Password Reset | Service Desk |
-| SC-002 | Account Unlock | Service Desk |
-| SC-003 | Standard Software Install | Service Desk |
-| SC-004 | Distribution Group Update | Service Desk |
-| SC-005 | Printer Configuration | Service Desk |
-| SC-006 | Routine Endpoint Patching | Senior IT Analyst |
-| SC-007 | Teams Channel Creation | Service Desk |
+| Change ID | Description | Type | Scheduled Date | Owner | Status |
+|:----------|:------------|:-----|:---------------|:------|:-------|
+| CHG-010 | CRM Application Update | Normal | 2026-01-14 | Senior Analyst | Completed |
+| CHG-011 | Monthly Endpoint Patching | Standard | 2026-01-14 | Senior Analyst | Completed |
+| CHG-012 | VPN Gateway Upgrade | Normal | 2026-01-28 | IT Manager | Scheduled |
+| CHG-015 | Printer Static IP Assignment | Normal | 2026-01-22 | Senior Analyst | Completed |
+| CHG-017 | Conditional Access Review Controls | Normal | 2026-02-04 | IT Manager | Pending CAB |
 
 ---
 
-# 12. Sample Change Schedule
-
-| Change ID | Description | Type | Scheduled Date | Status |
-|---|---|---|---|---|
-| CHG-010 | CRM Application Update | Normal | 2026-01-14 | Completed |
-| CHG-011 | Monthly Endpoint Patching | Standard | 2026-01-14 | Completed |
-| CHG-012 | VPN Gateway Upgrade | Normal | 2026-01-28 | Scheduled |
-| CHG-015 | Printer Static IP Assignment | Normal | 2026-01-22 | Completed |
-| CHG-017 | Conditional Access Review Controls | Normal | 2026-02-04 | Pending CAB |
-
----
-
-# 13. Change Documentation Requirements
+### 14. Change Documentation Requirements
 
 All changes must document:
 - Implementation timestamps
@@ -319,7 +342,7 @@ All changes must document:
 
 ---
 
-# 14. Rollback Planning
+### 15. Rollback Planning
 
 Every non-standard change must include a rollback plan.
 
@@ -336,7 +359,7 @@ Changes without rollback capability may require:
 
 ---
 
-# 15. Post-Implementation Review (PIR)
+### 16. Post-Implementation Review (PIR)
 
 PIRs evaluate:
 - Implementation success
@@ -345,12 +368,12 @@ PIRs evaluate:
 - Lessons learned
 - Improvement opportunities
 
----
+##
 
-## PIR Required For
+### PIR Required For
 
 | Scenario | PIR Required |
-|---|---|
+|:---------|:-------------|
 | Emergency Changes | Yes |
 | Failed Changes | Yes |
 | High-Risk Changes | Yes |
@@ -358,7 +381,7 @@ PIRs evaluate:
 
 ---
 
-# 16. Failed Change Handling
+### 17. Failed Change Handling
 
 A change is classified as failed when:
 - Rollback required
@@ -373,7 +396,7 @@ Failed changes may trigger:
 
 ---
 
-# 17. Security & Compliance Considerations
+### 18. Security & Compliance Considerations
 
 Changes affecting:
 - Identity systems
@@ -382,7 +405,7 @@ Changes affecting:
 - Security policies
 - Privileged access
 
-must:
+Must:
 - Maintain audit traceability
 - Include documented approval
 - Follow least privilege principles
@@ -390,10 +413,10 @@ must:
 
 ---
 
-# 18. Relationship to Other Processes
+### 19. Relationship to Other Processes
 
 | Process | Relationship |
-|---|---|
+|:--------|:-------------|
 | Incident Management | Failed changes may generate incidents |
 | Problem Management | Permanent fixes often require changes |
 | Continual Improvement | PIR findings drive process improvements |
@@ -401,7 +424,7 @@ must:
 
 ---
 
-# 19. Continual Improvement Integration
+### 20. Continual Improvement Integration
 
 Change metrics reviewed monthly include:
 - Change success rate
@@ -418,10 +441,10 @@ Improvement opportunities may include:
 
 ---
 
-# 20. ITIL v4 Guiding Principles Applied
+### 21. ITIL v4 Guiding Principles Applied
 
 | Principle | Application |
-|---|---|
+|:----------|:------------|
 | Focus on Value | Changes implemented to improve operational capability |
 | Keep It Simple and Practical | Standard changes reduce unnecessary overhead |
 | Collaborate and Promote Visibility | CAB provides operational transparency |
@@ -430,7 +453,7 @@ Improvement opportunities may include:
 
 ---
 
-# 21. Related Documents
+### 22. Related Documents
 
 - Incident Management Process  
 - Service Request Catalogue  
