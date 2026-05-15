@@ -28,7 +28,7 @@ The objective is to maximize successful changes while minimizing:
 
 ---
 
-# 2. Scope
+### 2. Scope
 
 This process applies to all IT changes that may affect:
 - Microsoft 365 services
@@ -43,7 +43,7 @@ This process applies to all IT changes that may affect:
 
 ---
 
-# 3. Definition of a Change
+### 3. Definition of a Change
 
 A **change** is the addition, modification, or removal of anything that could directly or indirectly affect IT services.
 
@@ -57,7 +57,7 @@ Examples include:
 
 ---
 
-# 4. Change Objectives
+### 4. Change Objectives
 
 The Change Management process aims to:
 - Assess implementation risk
@@ -69,96 +69,89 @@ The Change Management process aims to:
 
 ---
 
-# 5. Change Types
+### 5. Change Types
+
+### 5.1 Standard Change
+
+
+### Standard Change
+- **Definition:** Pre-approved, low risk, well-understood, follows a documented procedure, repeatable
+- **Authorization:** Pre-approved — no individual assessment needed
+- **CAB Required:** No
+- **Examples at Richmond Solutions:**
+  - Password reset / account unlock
+  - Standard software installation from approved list
+  - Adding user to existing distribution list
+  - Routine weekly patch application (Patch Tuesday)
+  - Printer configuration using standard procedure
+
+##
+
+### 5.2 Normal Change
+
+- **Definition:** Requires individual risk assessment, formal authorization before implementation, implementation planning
+- **Authorization:** IT Manager (low-medium risk) or CAB (high risk)
+- **CAB Required:** Yes for high-risk changes
+- **Examples at Richmond Solutions:**
+  - New software deployment organization-wide
+  - Network infrastructure changes (Firewall rule modifications)
+  - Server configuration changes (VPN configuration changes)
+  - New user access permissions (non-standard)
+  - Changes to conditional access policies (M365)
+
+##
+
+### 5.3 Emergency Change
+
+- **Definition:** Must be implemented urgently to restore service, prevent significant business impact or mititgate security threats
+- **Authorization:** Emergency CAB (IT Manager + available senior staff)
+- **CAB Required:** Emergency CAB only
+- **Examples at Richmond Solutions:**
+  - Critical security patch for active vulnerability
+  - Emergency fix for a P1 major incident
+  - Immediate rollback of a failed change causing outage
 
 ---
 
-## 5.1 Standard Change
-
-Standard changes are:
-- Low risk
-- Repeatable
-- Pre-approved
-- Well documented
-
-No CAB review is required.
-
-### Examples
-- Password resets
-- Account unlocks
-- Approved software installation
-- Distribution group updates
-- Routine printer configuration
-
----
-
-## 5.2 Normal Change
-
-Normal changes require:
-- Risk assessment
-- Implementation planning
-- Formal authorization
-
-Higher-risk changes require CAB review.
-
-### Examples
-- Organization-wide software deployment
-- Firewall rule modifications
-- VPN configuration changes
-- Conditional access policy updates
-- Server configuration changes
-
----
-
-## 5.3 Emergency Change
-
-Emergency changes are implemented rapidly to:
-- Restore service
-- Mitigate security threats
-- Prevent major business impact
-
-Emergency CAB approval is required before implementation whenever possible.
-
-### Examples
-- Critical vulnerability patching
-- Outage recovery changes
-- Emergency rollback actions
-- Active security incident remediation
-
----
-
-# 6. Change Authority Matrix
+### 6. Change Authority Matrix
 
 | Change Type | Authorization Required |
-|---|---|
-| Standard Change | Pre-approved |
-| Normal Change (Low Risk) | IT Manager |
-| Normal Change (High Risk) | CAB Approval |
-| Emergency Change | Emergency CAB |
+|:--------|:---------------------------|
+| Standard Change | Pre-approved - no individual authority required |
+| Normal Change (Low - medium Risk) | IT Manager |
+| Normal Change (High Risk) | CAB Approval: IT Manager + Department Head + Senior Analyst |
+| Emergency Change | Emergency CAB: IT Manager + available staff (minimum 2 approvers) |
 
 ---
 
-# 7. Change Advisory Board (CAB)
+### 7. Change Advisory Board (CAB)
 
 The CAB reviews high-risk changes before implementation.
 
 ## CAB Members
 
 | Role | Responsibility |
-|---|---|
+|:-----|:---------------|
 | IT Manager | CAB Chair |
 | Senior IT Analyst | Technical Review |
 | Department Representative | Business Impact Review |
 | Vendor Representative | External System Review (if required) |
 
----
+##
 
 ## CAB Schedule
 
 | Activity | Schedule |
-|---|---|
+|:---------|:---------|
 | Standard CAB Meeting | Tuesdays — 10:00 AM EST |
 | Emergency CAB | As required |
+
+Agenda:
+1. Review of changes submitted since last meeting
+2. Risk assessment for normal changes
+3. Change schedule review
+4. Post-implementation review of recent changes
+5. Failed/rejected change debrief
 
 ---
 
