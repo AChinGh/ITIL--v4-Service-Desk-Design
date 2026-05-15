@@ -4,7 +4,7 @@
 **Document Version:** 1.1  
 **Last Updated:** 2026  
 **Owner:** IT Manager  
-** ITIL Practice Area:** Continual Improvement, Service Level Management  
+**ITIL Practice Area:** Continual Improvement, Service Level Management  
 
 ---
 
