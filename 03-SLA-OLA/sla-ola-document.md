@@ -86,8 +86,6 @@ The IT department provides operational support for:
 
 ### 4.2. Incident Response & Resolution Targets
 
-Incident Response & Resolution Targets
-
 Priority is assigned based on:
 - Business impact
 - Number of affected users
@@ -98,7 +96,7 @@ Priority is assigned based on:
 |:---------|:------------|:--------------|:------------------|
 | P1 — Critical | Full service outage, >50 users affected | 15 minutes | 4 hours |
 | P2 — High | Major function down, department-wide | 30 minutes | 8 hours |
-| P3 — Medium | Degraded service, multiple-user workaround available | 2 hours | 24 hours |
+| P3 — Medium | Degraded service, multiple-user, workaround available | 2 hours | 24 hours |
 | P4 — Low | Minor issue, single user, workaround available | 4 hours | 72 hours |
 
 **Response time** = time from ticket creation to first analyst contact with user.  
@@ -115,10 +113,12 @@ Root cause remediation may continue separately under Problem Management.
 |:-------------|:-----------------------|
 | Password Reset / Account Unlock | 1 business hour |
 | Standard Software Install | 4 business hours |
-| New User Account Creation / onboarding | 1 business day |
-| Hardware Provision (laptop) | 5 business days |
-| VPN / Remote Access Setup | 2 business days |
+| New User Account Creation / Onboarding | 1 business day |
 | Shared Drive Access | 1 business day |
+| VPN / Remote Access Setup | 2 business days |
+| Hardware Provision (laptop) | 5 business days |
+
+
 
 ##
 
@@ -126,27 +126,16 @@ Root cause remediation may continue separately under Problem Management.
 
 | Service | Availability Target | Measurement Period |
 |:--------|:--------------------|:-------------------|
-| Core Network Connectivity | 99.5% uptime | Monthly |
 | Email (Microsoft 365) | 99.9% uptime | Monthly |
-| Business Applications (CRM, ERP) | 99.0% uptime | Monthly |
+| Core Network Connectivity | 99.5% uptime | Monthly |
 | File Storage / Shared Drives | 99.5% uptime | Monthly |
+| Business Applications (CRM, ERP) | 99.0% uptime | Monthly |
 | VPN Services | 99.0% uptime | Monthly |
 | Businesss Applications | 99.0% uptime | Monthly |
 
 ##
 
-### 4.5. Reporting
-
-| Report | Frequency | Audience |
-|:-------|:----------|:---------|
-| Incident summary report | Weekly | IT Manager |
-| SLA performance dashboard | Monthly | IT Manager + Department Heads |
-| Major incident post-review | After each P1 | IT Manager + Affected Stakeholders |
-| Service satisfaction survey results | Quarterly | IT Manager + HR |
-
-##
-
-### 4.6. Escalation
+### 4.5. Escalation
 
 ### Operational Escalation
 
@@ -175,7 +164,7 @@ If SLA targets are not being met:
 
 ##
 
-### 4.7. Major Incident Management
+### 4.6. Major Incident Management
 
 A Major Incident is declared when:
 - critical business operations are unavailable
@@ -192,7 +181,7 @@ Major Incident Targets
 
 ##
 
-### 4.8. Exclusions
+### 4.7. Exclusions
 
 The following are outside the scope of this SLA:
 - Personal devices not managed by IT
@@ -202,7 +191,7 @@ The following are outside the scope of this SLA:
 
 ##
 
-### 4.9. Planned Maintenance
+### 4.8. Planned Maintenance
 
 Planned maintenance activities may include:
 - Security patching
@@ -218,7 +207,7 @@ Maintenance Standards
 
 ## 
 
-### 4.10. Reporting & Performance Reviews
+### 4.9. Reporting & Performance Reviews
 | Report	| Frequency	| Audience |
 |:--------|:----------|:---------|
 | Incident Summary Report	| Weekly	| IT Team |
@@ -228,7 +217,7 @@ Maintenance Standards
 
 ##
 
-### 4.11. Customer Responsibilities
+### 4.10. Customer Responsibilities
 
 Business users are expected to:
 - Provide accurate incident information
@@ -239,7 +228,7 @@ Business users are expected to:
 
 ##
 
-### 4.12. Watermelon SLA Prevention
+### 4.11. Watermelon SLA Prevention
 
 A “Watermelon SLA” occurs when:
 - Operational metrics appear healthy (“green”)
