@@ -24,7 +24,7 @@ Problem Management operates separately from Incident Management:
 - Incident Management restores service quickly
 - Problem Management investigates why incidents occurred
 
-##
+---
 
 ### 2. Scope
 
@@ -37,7 +37,7 @@ This register applies to recurring or high-impact issues involving:
 - Network infrastructure
 - Printing services
 
-##
+---
 
 ### 3. Definitions
 
@@ -49,13 +49,13 @@ This register applies to recurring or high-impact issues involving:
 | **Root Cause Analysis (RCA)** | The process of identifying the underlying cause of a problem |
 | **Trend Analysis** | The process of ticket reviewing to identify recurring issues |
 
-##
+---
 
 ### 4. Problem Management Lifecycle
 
 Identify → Analyze → Workaround → Known Error → Raise Change → Resolution → Review
 
-##
+---
 
 ### 5. Problem Identification Sources
 
@@ -68,7 +68,7 @@ Problems may be identified through:
 - Trend reporting
 - Technician escalation
 
-##
+---
 
 ### 6. Problem Prioritization
 | Priority	| Description	| Typical Impact |
@@ -78,7 +78,7 @@ Problems may be identified through:
 |P3 — Medium	| Limited recurring issue	| Moderate productivity impact |
 |P4 — Low	| Minor recurring issue	| Minimal operational impact |
 
-##
+---
 
 ### 7. Problem Register
 
@@ -354,7 +354,7 @@ No — investigation ongoing
 ### Change Link
 - Not yet — pending RCA confirmation 
 
-##
+---
 
 ### 8. Problem Register / Known Error Summary
 
@@ -366,7 +366,7 @@ No — investigation ongoing
 | PRB-004 | Email outage root cause | Known Error (Error Control) — Change in progress | P1 | CHG-017 |
 | PRB-005 | Slow Finance workstation logins | Problem Control — RCA in progress | P3 | Pending |
 
-##
+---
 
 ### 9. Trend Analysis & Reporting
 
@@ -382,7 +382,7 @@ Trend reviews occur:
 - After all major incidents
 - During continual improvement meetings
 
-##
+---
 
 ### 10. Problem Escalation Criteria
 
@@ -392,7 +392,7 @@ Problems are escalated when:
 - Workaround no longer effective
 - Major financial or operational risk exists
 
-##
+---
 
 ### 11. Relationship to Other Processes
 | Process |	Relationship |
@@ -402,7 +402,7 @@ Problems are escalated when:
 | Continual Improvement	| Problem trends identify improvement opportunities |
 | Knowledge Management	| Known errors documented for Service Desk use |
 
-##
+---
 
 ### 12. Continual Improvement Integration
 
@@ -419,7 +419,7 @@ Examples:
 - Monitoring enhancement
 - Onboarding improvements
 
-##
+---
 
 ### 13. ITIL v4 Guiding Principles Applied
 
@@ -430,7 +430,7 @@ Examples:
 | Progress Iteratively with Feedback	| RCA updated continuously during investigation |
 | Start Where You Are	| Existing ticket trends used to identify recurring issues (PRB-003 and PRB-005 identified through trend analysis of existing ticket data) |
 
-##
+---
 
 ### 14. Related Documents
 - Incident Management Process
