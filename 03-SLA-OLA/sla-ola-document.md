@@ -276,7 +276,7 @@ and service delivery for network-related issues at Richmond Solutions.
 | Respond to P1 network incidents escalated by service desk | Within 15 minutes during business hours |
 | Restore core network connectivity (P1) | Within 2 hours |
 | Respond to P2 network incidents | Within 30 minutes |
-| Provide network access for new user accounts | Within 1 business day of request |
+| Provide network access for new user accounts / Onboarding | Within 1 business day of request |
 | Configure VPN access | Within 2 business days of approved request |
 | Notify service desk of planned network maintenance | Minimum 48 hours advance notice |
 | Provide post-incident network diagnostics | Within 24 hours of P1/P2 resolution |
@@ -345,39 +345,21 @@ Improvement opportunities are identified through:
 
 ##
 
-### 5.8. ITIL v4 Guiding Principles Applied
+### 5.8. Related Documents
+- Incident Management Process
+- Service Request Catalogue
+- Problem Management Register
+- Change Management Procedure
+- Continual Improvement Register
 
-| Principle	| Application |
-|:----------|:------------|
-| Focus on Value	| Service targets prioritize business continuity and productivity |
-| Collaborate and Promote Visibility	| SLA / OLA define clear operational ownership |
-| Keep It Simple and Practical	| Targets are measurable and operationally realistic |
-| Start Where You Are	| Targets based on current support capability and staffing |
-
-##
-
-### 5.9. Related Documents
-Incident Management Process
-Service Request Catalogue
-Problem Management Register
-Change Management Procedure
-Continual Improvement Register
-
-### ITIL v4 Guiding Principles Applied
-
-| Principle | Application |
-|:----------|:------------|
-| Focus on Value | SLA targets defined from business perspective — what matters to users |
-| Collaborate and Promote Visibility | OLA ensures internal teams share clear responsibilities |
-| Keep It Simple and Practical | SLA uses plain language — avoids technical jargon |
-| Start Where You Are | Targets based on realistic current capability, not aspirational figures |
-
-##
+## 
 
 ### Watermelon SLA — Anti-Pattern Note
 
 A **Watermelon SLA** occurs when metrics appear green (targets met) but the customer is actually unhappy. 
+
 To prevent this at Richmond Solutions, SLA performance is reviewed alongside quarterly user satisfaction surveys. 
+
 If survey scores are low despite targets being met, the metrics themselves are reviewed for relevance.
 
 ##
@@ -390,4 +372,14 @@ If survey scores are low despite targets being met, the metrics themselves are r
 | HR Representative | | January 2026 |
 | Department Head Representative | | January 2026 |
 
+##
+
+### ITIL v4 Guiding Principles Applied
+
+| Principle | Application |
+|:----------|:------------|
+| Focus on Value | SLA targets defined from business perspective — what matters to users, Service targets prioritize business continuity and productivity |
+| Collaborate and Promote Visibility | OLA ensures internal teams share clear responsibilities (clear operational ownership) |
+| Keep It Simple and Practical | SLA uses plain language — avoids technical jargon, Targets are measurable and operationally realistic |
+| Start Where You Are | Targets based on realistic current capability, not aspirational figures |
 
