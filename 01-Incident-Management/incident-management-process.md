@@ -7,7 +7,7 @@ Last Updated: 2026
 
 Owner: Service Desk Team
 
-ITIL Practice Area: Incident Management, Service Desk Operations, Event Monitoring
+ITIL Practice Area: Incident Management, Service Desk, Monitoring and Event Mangement
 
 ---
 
@@ -67,7 +67,7 @@ Priority is assigned based on Impact + Urgency
 | **P1 - Critical** | Major business disruption | Organization-wide | Immediate | Email outage, core system down | 15 minutes | 4 hours |
 | **P2 - High** | Significant operational impact | Department-wide | High | VPN failure affecting remote staff | 30 minutes | 8 hours |
 | **P3 - Medium** | Limited impact, workaround available | Multiple users | Medium | Application issues, intermittent errors | 2 hours | 24 hours |
-| **P4 - Low** | Minor issue workaround available | Low | Single user | Printer issue, display settings | 4 hours | 72 hours |
+| **P4 - Low** | Minor issue workaround available | Single user | Low | Printer issue, display settings | 4 hours | 72 hours |
 
 ---
 
@@ -128,7 +128,7 @@ Incidents are categorized to support routing and trend analysis:
 - Email / Communication Tools
 - Identify & Access (Entra ID / AD)
 - Printing / Peripherals
-- Security-realted issues
+- Security-related issues
 - Other
 
 ##
@@ -193,7 +193,7 @@ Resolution involves restoring service using:
 An incident is closed only when:
 - Service is confirmed restored
 - User validation is completed (where applicable)
-- Update ticket status to CLosed
+- Update ticket status to Closed
 - Category and resolution codes are recorded for trending analysis
 
 For P1 / P2 incidents:
@@ -201,7 +201,7 @@ For P1 / P2 incidents:
 
 ---
 
-### 7. Escalation Paths
+### 6. Escalation Paths
 
 ```text
 User Reports Incident
@@ -243,7 +243,7 @@ Major Incident Process:
 
 ---
 
-### 8. SLA Integration
+### 7. SLA Integration
 
 Incident handling is directly tied to SLA commitments:
 
@@ -254,7 +254,7 @@ SLA compliance is tracked per incident and reported monthly.
 
 ---
 
-### 9. Continual Improvement
+### 8. Continual Improvement
 
 Incident trends feed into:
 
@@ -271,6 +271,18 @@ Example triggers:
 - User dissatisfaction trends
 
 ---
+
+### 9. Success Metric
+
+| Metric | Target |
+|:-------|:-------|
+| P1 response within SLA | 100% |
+| P2 response within SLA | 98% | 
+| First contact resolution rate | >80% |
+| SLA breach rate | <2% |
+| Major incidents per quarter | <2 |
+| User satisfaction (post-P1/P2) | >85% |
+
 
 ### 10. Related Documents
 
