@@ -2,8 +2,11 @@
 ### Richmond Solutions Inc. — IT Service Management
 
 **Document Version:** 1.1
+
 **Last Updated:** 2026  
+
 **Owner:** Service Desk Team  
+
 **ITIL Practice Area:** Knowledge Management, Service Desk, Incident Management  
 
 ---
