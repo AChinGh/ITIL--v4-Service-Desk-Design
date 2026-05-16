@@ -2,8 +2,11 @@
 ### Richmond Solutions Inc. — IT Service Management
 
 **Document Version:** 1.1  
+
 **Last Updated:** 2026  
+
 **Owner:** IT Manager  
+
 **ITIL Practice Area:** Change Enablement, Release Management  
 
 ---
@@ -441,7 +444,20 @@ Improvement opportunities may include:
 
 ---
 
-### 21. ITIL v4 Guiding Principles Applied
+### 21. Success Metrics
+
+| Metric | Baseline | Target | Measurement Frequency |
+|:-------|:---------|:-------|:----------------------|
+| Change success rate | 88% | >95% | Monthly |
+| Failed change rate | 12% | <5% | Monthly |
+| Emergency change frequency | 3 per month | <1 per month | Monthly |
+| Rollback rate | 8% of changes | <3% | Monthly |
+| PIR completion rate | Not tracked | 100% of required PIRs | Per change |
+| Standard change as % of total | Not tracked | >60% | Monthly |
+
+---
+
+### 22. ITIL v4 Guiding Principles Applied
 
 | Principle | Application |
 |:----------|:------------|
@@ -453,12 +469,21 @@ Improvement opportunities may include:
 
 ---
 
-### 22. Related Documents
+### 23. Related Documents
 
 - Incident Management Process  — failed changes that cause incidents trigger incident procedures
 - Service Request Catalogue  — CMDB updated after every implemented change
 - SLA & OLA Document  
 - Problem Management Register  — resolved problems generate change requests for permanent fixes
 - Continual Improvement Register  
+
+---
+
+### 24. Change Log
+
+| Version | Date | Author | Changes |
+|:--------|:-----|:-------|:--------|
+| 1.0 | January 2026 | IT Manager | Initial procedure — change types, CAB structure, standard change register |
+| 1.1 | February 2026 | IT Manager | Added rollback planning section, failed change handling, security and compliance controls, PIR requirements table, emergency change process flow |
 
 ---
