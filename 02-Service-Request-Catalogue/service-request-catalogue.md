@@ -228,17 +228,7 @@ CIR-005 — Automated new user onboarding ticket creation (target: 2026-Q3)
 
 ---
 
-### 12. ITIL v4 Guiding Principles Applied
-| Principle	| Application |
-|:----------|:------------|
-| Focus on Value |	Requests fulfilled quickly to maintain user productivity |
-| Keep It Simple and Practical	| Standardized fulfilment procedures reduce complexity |
-| Optimize and Automate	| High-volume tasks identified for automation |
-| Start Where You Are	| Catalogue based on common operational support requests |
-
----
-
-### 13. Success Metric
+### 12. Success Metric
 
 | Metric | Baseline | Target |
 |:-------|:---------|:-------|
@@ -246,6 +236,16 @@ CIR-005 — Automated new user onboarding ticket creation (target: 2026-Q3)
 | Password resets via self-service | 0% (manual only) | 70% within 30 days of SSPR launch |
 | Onboarding completed before start date | 78% | 100% |
 | Request reopening rate | Not tracked | <3% |
+
+---
+
+### 13. ITIL v4 Guiding Principles Applied
+| Principle	| Application |
+|:----------|:------------|
+| Focus on Value |	Requests fulfilled quickly to maintain user productivity |
+| Keep It Simple and Practical	| Standardized fulfilment procedures reduce complexity |
+| Optimize and Automate	| High-volume tasks identified for automation |
+| Start Where You Are	| Catalogue based on common operational support requests |
 
 ---
 
