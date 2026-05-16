@@ -122,11 +122,11 @@ Benefits include:
 
 ### Success Metrics
 
-| Metric | Target |
-|:-------|:-------|
-| Password Reset Tickets | Reduced By 70% within 30 days |
-| User Adoption Rate | >80% |
-| Average Password Reset Time | <5 Minutes |
+| Metric | Baseline | Target |
+|:-------|:---------|:-------|
+| Password reset tickets | ~22 tickets/month (18% of ~120 monthly volume) | Reduced by 70% within 30 days |
+| User adoption rate | 0% (no self-service exists) | >80% within 30 days of launch |
+| Average password reset time | 45–60 minutes (ticket submission to resolution) | <5 minutes |
 
 ##
 
@@ -261,11 +261,11 @@ Improved monitoring supports:
 
 ### Success Metrics
 
-| Metric | Target |
-|:-------|:-------|
-| Proactive Incident Detection | 80% within 60 days |
-| P1/P2 Incident Reduction | 30% |
-| Monitoring Coverage | 100% Critical Systems |
+| Metric | Baseline | Target |
+|:-------|:---------|:-------|
+| Proactive incident detection | 40% (60% reactive — user-reported) | 80% within 60 days |
+| P1/P2 incident rate | 2 major incidents last quarter | Reduce by 30% |
+| Monitoring coverage | Partial — critical systems only (~40%) | 100% of critical systems |
 
 ##
 
@@ -344,11 +344,11 @@ Improved awareness reduces:
 
 ### Success Metrics
 
-| Metric | Target |
-|:-------|:-------|
-| Training Participation | >95% |
-| Phishing Incidents | Reduced By 50% |
-| User Awareness Survey Score | Improved Quarterly |
+| Metric | Baseline | Target |
+|:-------|:---------|:-------|
+| Training participation | 0% (no formal program exists) | >95% per quarterly session |
+| Phishing-related incidents | 3 incidents in last 6 months | Reduce by 50% within 12 months |
+| User awareness survey score | Not currently measured — establish at first session | Improve by 15% quarter-over-quarter |
 
 ##
 
@@ -386,11 +386,11 @@ Accurate CMDB data (effective for change and problem management) improves:
 
 ### Success Metrics
 
-| Metric | Target |
-|:-------|:-------|
-| CMDB Accuracy | >95% |
-| Stale Records Removed | 100% |
-| Asset Reconciliation Completion | Complete |
+| Metric | Baseline | Target |
+|:-------|:---------|:-------|
+| CMDB accuracy | Unknown — last reviewed 8 months ago | >95% verified accuracy |
+| Stale or decommissioned records | Not quantified — audit required | 100% removed post-audit |
+| Asset reconciliation completion | Partial — not formally reconciled | 100% complete |
 
 ##
 
