@@ -56,7 +56,30 @@ This register applies to recurring or high-impact issues involving:
 
 ### 4. Problem Management Lifecycle
 
-Identify → Analyze → Workaround → Known Error → Raise Change → Resolution → Review
+Problem Identification → Problem Control (Analyze, Workaround, Known Error record) → Error Control (manage known errors through to permanent fix or risk acceptance) → Resolution → Review
+
+| Phase | What Happens | Output |
+|:------|:-------------|:-------|
+| Problem Identification | Detect problems from recurring incidents, trend data, monitoring alerts, or proactive analysis | Problem record created |
+| Problem Control | Analyse the problem, perform RCA, document workaround | Known error record created |
+| Error Control | Manage known errors through to permanent fix or formal risk acceptance | Change request raised or risk accepted |
+| Resolution | Permanent fix implemented via approved change | Problem record closed |
+| Review | Post-resolution review — lessons learned fed into CIR | CIR updated |
+
+### 4.1 Error Control — Known Error Management
+
+Once a problem becomes a Known Error, it is managed through Error Control 
+until permanently resolved or formally accepted as a risk.
+
+| Known Error ID | Linked Problem | Workaround Documented | Permanent Fix Available | Fix Status | Accepted Risk |
+|:---------------|:---------------|:----------------------|:------------------------|:-----------|:--------------|
+| KE-001 | PRB-001 — VPN Disconnections | Yes — reconnect VPN, reduce Teams video quality | Yes — bandwidth upgrade via ISP | CHG-012 in progress | No |
+| KE-002 | PRB-002 — CRM Crash on Windows 11 24H2 | Yes — use browser-based CRM | Yes — CRM patch v4.2.3 | Awaiting vendor release | No |
+| KE-003 | PRB-004 — Email Authentication Failure | N/A — service fully restored | Yes — identity change controls | CHG-017 in progress | No |
+
+**Note:** PRB-003 and PRB-005 remain in Problem Control phase. 
+
+Known Error records will be created upon RCA confirmation.
 
 ---
 
@@ -74,12 +97,12 @@ Problems may be identified through:
 ---
 
 ### 6. Problem Prioritization
-| Priority	| Description	| Typical Impact |
-|:----------|:------------|:---------------|
-|P1 — Critical	| Organization-wide recurring issue	| Major service disruption |
-|P2 — High	| Department-wide recurring issue	| Significant operational impact |
-|P3 — Medium	| Limited recurring issue	| Moderate productivity impact |
-|P4 — Low	| Minor recurring issue	| Minimal operational impact |
+| Priority	| Description	| Typical Impact | Investigation Target |
+|:---------|:------------|:---------------|:---------------------|
+|P1 — Critical	| Organization-wide recurring issue	| Major service disruption | Within 4 hours of identification |
+|P2 — High	| Department-wide recurring issue	| Significant operational impact | Within 24 hours |
+|P3 — Medium	| Limited recurring issue	| Moderate productivity impact | Within 5 business days |
+|P4 — Low	| Minor recurring issue	| Minimal operational impact | Within 10 business days |
 
 ---
 
@@ -131,7 +154,6 @@ Yes — root cause identified
 ### Proposed Permanent Fix
 - Upgrade VPN gateway bandwidth allocation from 50 Mbps to 150 Mbps via ISP contract amendment
 - Upgrade remote access gateway capacity
-- Implement monitoring alerts for bandwidth thresholds
 
 ##
 
@@ -313,10 +335,10 @@ Yes — cause confirmed
 | **Raised By** | Senior IT Analyst |
 | **Priority** | P3 — Medium |
 | **Status** | Problem Control — RCA in progress |
-| **Title** | Slow login times on Finance department workstations |
+| **Title** | Slow login times on Floor 3 Finance department workstations |
 | **Linked Incidents** | None (user-reported via satisfaction survey) |
 | **Users Affected** | 12 (Finance department) |
-| **Description** | Finance staff report login times of 3–5 minutes, compared to <1 minute for other departments. Issue is consistent across all 12 Finance workstations. No incidents raised — users adapted by arriving earlier. Identified through satisfaction survey feedback. |
+| **Description** | Finance staff on Floor 3 report login times of 3–5 minutes, compared to <1 minute for other departments. Issue is consistent across all 12 Finance workstations. No incidents raised — users adapted by arriving earlier. Identified through satisfaction survey feedback. |
 
 ##
 
@@ -325,7 +347,7 @@ Yes — cause confirmed
 Investigation ongoing
 
 Hypothesis: 
-- Network switch on Floor 2 loses printer DHCP lease during weekend power-saving mode. Switch restores other devices but printer IP renewal fails
+- Initial investigation suggests Finance department workstations on Floor 3 are processing legacy Group Policy Objects (GPOs) that reference decommissioned servers. Login scripts attempt to map drives to systems that no longer exist, causing authentication timeout delays before the desktop loads.
 
 Preliminary analysis suggests:
 - Legacy Group Policy Objects (GPOs)
@@ -348,7 +370,7 @@ No — investigation ongoing
  
 ### Proposed Permanent Fix
 
-- Removelegacy GPO mappings
+- Remove legacy GPO mappings
 - Validate login script dependencies
 - Audit departmental authentication policies
 
@@ -359,7 +381,7 @@ No — investigation ongoing
 
 ---
 
-### 8. Problem Register / Known Error Summary
+### 8. Problem Register Summary
 
 | ID | Title | Status | Priority | Change Raised |
 |:---|:------|:-------|:---------|:--------------|
@@ -422,6 +444,12 @@ Examples:
 - Monitoring enhancement
 - Onboarding improvements
 
+The following problem-driven improvements are actively tracked in the Richmond Solutions Continual Improvement Register:
+
+CIR-004 — Automated monitoring for critical servers (addresses PRB-001 bandwidth detection gap)
+CIR-007 — CMDB audit and update (supports accurate impact analysis for future problems)
+CIR-008 — Post-implementation review for normal changes (addresses PRB-004 root cause — change deployed without validation)
+
 ---
 
 ### 13. ITIL v4 Guiding Principles Applied
@@ -435,13 +463,33 @@ Examples:
 
 ---
 
-### 14. Related Documents
+### 14. Success Metrics
+
+| Metric | Baseline | Target | Measurement Frequency |
+|:-------|:---------|:-------|:----------------------|
+| Open problem records | 5 (current) | Reduce by 20% per quarter | Monthly |
+| Known errors with documented workaround | 60% | 100% | Monthly |
+| Problems resolved within 30 days of RCA | Not currently tracked | >80% | Monthly |
+| Recurring incidents (same root cause) | 8% of ticket volume | <3% | Monthly |
+| Major incidents with PIR-raised problem record | 100% | 100% | Per incident |
+
+---
+
+### 15. Related Documents
 - Incident Management Process
 - SLA & OLA Document
 - Change Management Procedure
 - Continual Improvement Register
 - Knowledge Base Articles
 
+---
 
+### 16. Change Log
 
+| Version | Date | Author | Changes |
+|:--------|:-----|:-------|:--------|
+| 1.0 | January 2026 | Senior IT Analyst | Initial register with PRB-001 to PRB-003 |
+| 1.1 | February 2026 | Senior IT Analyst | Added PRB-004 and PRB-005, expanded trend analysis, added escalation criteria, guiding principles table |
+
+---
 
