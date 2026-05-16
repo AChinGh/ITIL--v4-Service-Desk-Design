@@ -2,8 +2,11 @@
 ### Richmond Solutions Inc. — IT Service Management
 
 **Document Version:** 1.1  
+
 **Last Updated:** 2026  
+
 **Owner:** IT Manager  
+
 **ITIL Practice Area:** Continual Improvement, Service Level Management  
 
 ---
@@ -13,12 +16,12 @@
 The Continual Improvement Register (CIR) is used to identify, prioritize, track, and measure improvement opportunities across IT services at Richmond Solutions Inc.
 
 The purpose of this process is to ensure improvement activities are:
-- Aligned With Business Goals
+- Aligned With business goals
 - Measurable
 - Prioritized
-- Assigned To Owners
-- Reviewed Regularly
-- Integrated Into Daily Operations
+- Assigned to owners
+- Reviewed regularly
+- Integrated into daily operations
 
 The CIR supports proactive service improvement rather than reactive operational changes.
 
@@ -27,31 +30,31 @@ The CIR supports proactive service improvement rather than reactive operational 
 ### 2. Scope
 
 The Continual Improvement process applies to:
-- Service Desk Operations
-- Incident Management
-- Problem Management
-- Change Enablement
-- Monitoring & Event Management
-- Knowledge Management
-- Security Awareness
-- Asset & Configuration Management
-- SLA Performance
-- User Experience Improvements
+- Service desk operations
+- Incident management
+- Problem management
+- Change enablement
+- Monitoring & event management
+- Knowledge management
+- Security awareness
+- Asset & configuration management
+- SLA performance
+- User experience improvements
 
 ---
 
 ### 3. Continual Improvement Objectives
 
 The objectives of the CIR are to:
-- Reduce Repeated Incidents
-- Improve Service Quality
-- Increase Operational Efficiency
-- Improve User Satisfaction
-- Support Proactive IT Operations
-- Reduce Manual Work
-- Improve Service Visibility
-- Enhance Security Awareness
-- Improve SLA Performance
+- Reduce repeated incidents
+- Improve service quality
+- Increase operational efficiency
+- Improve user satisfaction
+- Support proactive IT operations
+- Reduce manual work
+- Improve service visibility
+- Enhance security awareness
+- Improve SLA performance
 
 ---
 
@@ -96,7 +99,7 @@ All improvement initiatives follow the ITIL v4 continual improvement model.
 | Owner | Senior IT Analyst |
 | Target Date | 2026-02-28 |
 | ITIL Practice | Service Request Management, Service Desk |
-| Guiding Principle | Optimizing and Automate - automate a high-volume, repeatable + low-complex task |
+| Guiding Principle | Optimize and Automate - automate a high-volume, repeatable + low-complex task |
 
 ##
 
@@ -163,11 +166,11 @@ A structured knowledge base supports:
 
 ### Success Metrics
 
-| Metric | Target |
-|:-------|:-------|
-| Published Knowledge Articles | 15 |
-| Repeat Incident Reduction | 20% |
-| First Contact Resolution | Increase To 80% within 60 days |
+| Metric | Baseline | Target |
+|:-------|:---------|:-------|
+| Published Knowledge Articles | 0 | 15 articles within 60 days |
+| Repeat Incident Reduction | 8% of ticket volume | Reduce by 20% within 60 days |
+| First Contact Resolution | 72% | >80% within 60 days |
 
 ##
 
@@ -208,11 +211,12 @@ Regular review meetings improve:
 
 ### Success Metrics
 
-| Metric | Target |
-|:-------|:-------|
-| SLA Review Attendance | >90% |
-| User Satisfaction Score | Improved Quarterly |
-| SLA Breaches | Reduced By 25% |
+| Metric | Baseline | Target |
+|:-------|:---------|:-------|
+| SLA review meeting held | Not currently happening | 100% monthly |
+| SLA Review Attendance | N/A | >90% per meeting |
+| User Satisfaction Score | Not currently measured | Establish baseline by Q1, improve by 10% by Q3 |
+| SLA Breaches | 8% of tickets | Reduced By 25% within 6 months |
 
 ##
 
@@ -299,11 +303,11 @@ Automation improves:
 
 ### Success Metrics
 
-| Metric | Target |
-|:-------|:-------|
-| Missed Onboarding Tasks | Zero |
-| Average Onboarding Time | Reduced By 40% |
-| Automation Coverage | 100% New Hires |
+| Metric | Baseline | Target |
+|:-------|:---------|:-------|
+| Missed Onboarding Tasks | Occasional — not formally tracked | Zero |
+| Average Onboarding Time | 2.5 business days (manual) | 1.5 business days (40% reduction) |
+| Automation Coverage | 0% (fully manual) | 100% New Hires |
 
 ##
 
@@ -431,11 +435,11 @@ Structured PIRs support:
 
 ### Success Metrics
 
-| Metric | Target |
-|:-------|:-------|
-| Change Failure Rate | <5% within 6 months |
-| PIR Completion Rate | 100% |
-| Repeat Failed Changes | Reduced Significantly |
+| Metric | Baseline | Target |
+|:-------|:---------|:-------|
+| Change Failure Rate | 12% | <5% within 6 months |
+| PIR Completion Rate | 0% (no formal PIR process) | 100% of required PIRs |
+| Repeat Failed Changes)same root cause) | Not tracked | 0 within 3 months of PIR adoption |
 
 ---
 
@@ -456,28 +460,28 @@ Structured PIRs support:
 
 ### 8. Monthly Review Process
 
-The CIR is reviewed monthly during IT operational meetings.
-
-Review activities include:
-- Status Updates
-- Progress Tracking
-- Priority Adjustments
-- Resource Planning
-- Metric Validation
-- New Improvement Proposals
+| Activity | Detail |
+|:---------|:-------|
+| Meeting frequency | Monthly — first Tuesday of each month |
+| Duration | 30 minutes |
+| Chair | IT Manager |
+| Attendees | IT Manager, Senior IT Analyst, Service Desk Lead |
+| Output | Updated CIR with status changes, new entries, and closed items |
+| Escalation | Items requiring executive decision escalated to management |
 
 ---
 
 ### 9. Continual Improvement Metrics
 
-Key metrics reviewed monthly include:
-- SLA Compliance
-- Ticket Volume Trends
-- Repeat Incident Rates
-- Change Success Rates
-- First Contact Resolution
-- User Satisfaction Scores
-- Security Incident Frequency
+| Metric | Baseline | Target | Measurement Frequency |
+|:-------|:---------|:-------|:----------------------|
+| SLA compliance rate | Not formally tracked | >95% | Monthly |
+| Monthly ticket volume | ~120 tickets | Reduce by 20% by Q3 | Monthly |
+| Repeat incident rate | 8% of ticket volume | <3% | Monthly |
+| Change success rate | 88% | >95% | Monthly |
+| First contact resolution | 72% | >80% | Monthly |
+| User satisfaction score | Not currently measured | >85% | Quarterly |
+| Security incident frequency | 3 phishing incidents last 6 months | Reduce by 50% | Quarterly |
 
 ---
 
@@ -496,7 +500,7 @@ Key metrics reviewed monthly include:
 
 | Principle | Application |
 |:----------|:------------|
-| Focus On Value | Improvements linked directly to business outcomes - clear business justification and measurable success metric |
+| Focus on Value | Improvements linked directly to business outcomes - clear business justification and measurable success metric |
 | Start Where You Are | Existing operational data used as baseline |
 | Progress Iteratively With Feedback | Improvements reviewed and adjusted continuously |
 | Collaborate And Promote Visibility | Regular review meetings increase transparency |
@@ -510,6 +514,16 @@ Key metrics reviewed monthly include:
 - Service Request Catalogue  
 - SLA & OLA Document  
 - Problem Management Register  
-- Change Management Procedure  
+- Change Management Procedure
+- Knowledge Management Practices
+
+---
+
+### 13. Document Change Log
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | January 2026 | IT Manager | Initial CIR — CIR-001 to CIR-006 |
+| 1.1 | February 2026 | IT Manager | Added CIR-007 and CIR-008, operational baseline section, monthly review process, continual improvement metrics section |
 
 ---
