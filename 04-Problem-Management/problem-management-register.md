@@ -2,8 +2,11 @@
 ### Richmond Solutions Inc. — IT Service Management
 
 **Document Version:** 1.1
+
 **Last Updated:** 2026  
+
 **Owner:** Senior IT Analyst  
+
 **ITIL Practice Area:** Problem Management, Continual Improvement
 
 ---
