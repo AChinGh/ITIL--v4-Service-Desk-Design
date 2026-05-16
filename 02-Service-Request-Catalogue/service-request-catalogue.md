@@ -39,7 +39,7 @@ This catalogue applies to all Richmond Solutions employees requiring access to I
 
 ### 3. Definition of a Service Request
 
-A service request is a formal request from a user for something that is part of normal IT service delivery - not an incident
+A service request is a request from a user or authorized user for something that is part of normal service delivery — not an incident.
 
 Examples include:
 - Password resets
@@ -60,7 +60,7 @@ Service requests are:
 
 | Channel | Purpose | Standard Contact Method |
 |:--------|:--------|:--------|
-| **Self-Service Portal** | Preferred submission method | portal@richmondsolutions.ca (preferred) |
+| **Self-Service Portal** | Preferred submission method | portal.richmondsolutions.ca (preferred) |
 | **Email** | General request submission | itsupport@richmondsolutions.ca |
 | **Phone** | Urgent operational requests only | Extension 100 (for urgent requests only) |
 | **HR Onboarding Workflow** | New hire provisioning requests | hr@richmondsolutions.ca |
@@ -69,6 +69,8 @@ Service requests are:
 --- 
 
 ### 5. Service Request Workflow
+
+### 5.1. Standard Request Workflow
 
 ```text
 Request Submitted
@@ -84,9 +86,25 @@ User Confirmation
 Ticket Closure
 ```
 
+### 5.2. Approval Workflow
+
+```text
+Submit Request (Portal / Email / Phone)
+↓
+Service Desk logs ticket and confirms receipt (within 1 hour)
+↓
+Approval obtained (if required)
+↓
+Fulfilment by Service Desk analyst
+↓
+Confirmation sent to requester
+↓
+Ticket closed
+```
+
 ---
 
-### 6. Service Request Catelogue
+### 6. Service Request Catalogue
 
 ### 6.1 Access & Authentication
 
@@ -94,10 +112,12 @@ Ticket Closure
 |:--------|:------------|:----------------|:------------------|:----------------|:----------------|
 | **Password Reset** | Reset Active Directory or application password | All staff | No | 1 hour | Service Desk |
 | **Account Unlock** | Unlock account locked after failed login attempts | All staff | No | 1 hour | Service Desk |
-| **New User Account** | Create AD account, email, and standard access for new hire | HR / Manager | Manager approval | 1 business day |
+| **New User Account** | Create AD account, email, and standard access for new hire | HR / Manager | Manager approval | 1 business day | Service Desk |
 | **Access to Shared Drive** | Grant read or read/write access to a shared folder | Manager on behalf of staff | Manager approval | 1 business day | Service Desk |
-| **VPN Access** | Enable VPN access for remote work, MFA verification, User teting | Manager on behalf of staff | Manager + IT approval | 2 business days | Senior Analyst |
-| **Application Access** | Grant access to a specific business application | Manager on behalf of staff | Manager approval | 1 business day | Service Desk |
+| **VPN Access** | Enable VPN access for remote workers — includes MFA verification and user acceptance testing before activation | Manager on behalf of staff | Manager + IT approval | 2 business days | Senior Analyst |
+| Standard Application Access | Access to standard business applications (CRM, collaboration tools) | Manager on behalf of staff | Manager approval | 1 business day | Service Desk |
+| Sensitive Application Access | Access to finance, HR, or payroll systems | Manager on behalf of staff | Manager + Application Owner | 2 business days | Application Owner |
+| Privileged / Admin Access | Elevated permissions in any system | IT Manager | IT Manager | 2 business days | Senior IT Analyst |
 
 ##
 
@@ -141,24 +161,6 @@ New User Account Provisioning
 | Onboarding |	Create new employee IT account and baseline access | HR / Hiring Managers |	HR authorization | 1 business day | Service Desk |
 | Offboarding | Disable accounts and revoke access for departing staff | HR only | HR authorization | same business day | Service Desk + IT Manager |
 
-
-
-### Standard Fulfilment Procedure
-
-```text
-Submit Request (Portal / Email / Phone)
-↓
-Service Desk logs ticket and confirms receipt (within 1 hour)
-↓
-Approval obtained (if required)
-↓
-Fulfilment by Service Desk analyst
-↓
-Confirmation sent to requester
-↓
-Ticket closed
-```
-
 ---
 
 ### 7. Service Level Targets
@@ -167,7 +169,7 @@ Ticket closed
 |:---------|:-------------|:---------|:-----------|
 | Standard | All catalogue requests | Acknowledged within 1 hour | Per item above |
 | Urgent | Business-critical need | Acknowledged within 30 min | Same day where possible |
-| HR Onboarding | When new staff is hired | Acknowldged within 2 hours | Before employee start date | 
+| HR Onboarding | When new staff is hired | Acknowledged within 2 hours | Before employee start date | 
 
 ---
 
@@ -219,6 +221,11 @@ Examples:
 - Onboarding workflow automation
 - Software deployment standardization
 
+The following service request improvements are actively tracked in the Richmond Solutions Continual Improvement Register:
+
+CIR-001 — Self-service password reset portal (target: 2026-02-28)
+CIR-005 — Automated new user onboarding ticket creation (target: 2026-Q3)
+
 ---
 
 ### 12. ITIL v4 Guiding Principles Applied
@@ -231,7 +238,18 @@ Examples:
 
 ---
 
-### 13. Related Documents
+### 13. Success Metric
+
+| Metric | Baseline | Target |
+|:-------|:---------|:-------|
+| Requests fulfilled within SLA | Not currently tracked | 95% |
+| Password resets via self-service | 0% (manual only) | 70% within 30 days of SSPR launch |
+| Onboarding completed before start date | 78% | 100% |
+| Request reopening rate | Not tracked | <3% |
+
+---
+
+### 14. Related Documents
 - Incident Management Process
 - SLA & OLA Document
 - Change Management Procedure
@@ -239,7 +257,14 @@ Examples:
 - Knowledge Base Articles
 - New Hire Onboarding Workflow
 
+---
 
+### 15. Change Log
+
+| Version | Date | Author | Changes |
+|:--------|:-----|:-------|:--------|
+| 1.0 | January 2026 | IT Support Team | Initial catalogue |
+| 1.1 | February 2026 | IT Support Team | Added fulfilment team column, offboarding row, security and compliance section, continual improvement integration |
 
 
 
