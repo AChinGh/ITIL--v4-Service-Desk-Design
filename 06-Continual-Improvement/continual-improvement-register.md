@@ -95,6 +95,8 @@ All improvement initiatives follow the ITIL v4 continual improvement model.
 | Status | In Progress |
 | Owner | Senior IT Analyst |
 | Target Date | 2026-02-28 |
+| ITIL Practice | Service Request Management, Service Desk |
+| Guiding Principle | Optimizing and Automate - automate a high-volume, repeatable + low-complex task |
 
 ##
 
@@ -119,7 +121,7 @@ Benefits include:
 
 | Metric | Target |
 |:-------|:-------|
-| Password Reset Tickets | Reduced By 70% |
+| Password Reset Tickets | Reduced By 70% within 30 days |
 | User Adoption Rate | >80% |
 | Average Password Reset Time | <5 Minutes |
 
@@ -134,10 +136,14 @@ Benefits include:
 | Status | Not Started |
 | Owner | Service Desk Analyst |
 | Target Date | 2026-03-15 |
+| ITIL Practice | Service Desk, Incident Management, Continual Improvement |
+| Guiding Principle | Start Where You Are — use existing ticket data to identify top 15 recurring issues |
 
 ### Description
 
-Develop knowledge articles for the top recurring incidents affecting staff.
+Develop knowledge articles (documented resolution guide) for the top recurring incidents affecting staff.
+
+Publish to internal SharePoint site accessible to all staff and service desk.
 
 Knowledge articles will include:
 - Troubleshooting Steps
@@ -161,7 +167,7 @@ A structured knowledge base supports:
 |:-------|:-------|
 | Published Knowledge Articles | 15 |
 | Repeat Incident Reduction | 20% |
-| First Contact Resolution | Increase To 80% |
+| First Contact Resolution | Increase To 80% within 60 days |
 
 ##
 
@@ -174,6 +180,8 @@ A structured knowledge base supports:
 | Status | Scheduled |
 | Owner | IT Manager |
 | Target Date | 2026-02-05 |
+| ITIL Practice | Service Level Management, Relationship Management |
+| Guiding Principle | Collaborate and Promote Visibility |
 
 ### Description
 
@@ -196,6 +204,7 @@ Regular review meetings improve:
 - Communication
 - Accountability
 - Service Alignment With Business Needs
+- Prevents Watermelon SLA
 
 ### Success Metrics
 
@@ -216,10 +225,12 @@ Regular review meetings improve:
 | Status | In Progress |
 | Owner | Senior IT Analyst |
 | Target Date | 2026-03-01 |
+| ITIL Practice | Monitoring & Event Management, Incident Management |
+| Guiding Principle | Optimize and Automate — detect events automatically before users are impacted |
 
 ### Description
 
-Implement proactive monitoring across:
+Implement proactive monitoring across critical servers:
 - File Servers
 - VPN Infrastructure
 - Business Applications
@@ -235,7 +246,7 @@ Monitoring thresholds will detect:
 
 ### Business Justification
 
-Current monitoring is largely reactive.
+Current monitoring is largely reactive (~60%)
 
 Improved monitoring supports:
 - Faster Detection
@@ -248,7 +259,7 @@ Improved monitoring supports:
 
 | Metric | Target |
 |:-------|:-------|
-| Proactive Incident Detection | 80% |
+| Proactive Incident Detection | 80% within 60 days |
 | P1/P2 Incident Reduction | 30% |
 | Monitoring Coverage | 100% Critical Systems |
 
@@ -263,6 +274,8 @@ Improved monitoring supports:
 | Status | Not Started |
 | Owner | IT Manager |
 | Target Date | 2026-Q3 |
+| ITIL Practice | Service Request Management, IT Asset Management |
+| Guiding Principle | Optimize and Automate; Progress Iteratively with Feedback |
 
 ### Description
 
@@ -287,7 +300,7 @@ Automation improves:
 ### Success Metrics
 
 | Metric | Target |
-|---|---|
+|:-------|:-------|
 | Missed Onboarding Tasks | Zero |
 | Average Onboarding Time | Reduced By 40% |
 | Automation Coverage | 100% New Hires |
@@ -303,6 +316,8 @@ Automation improves:
 | Status | Not Started |
 | Owner | IT Manager |
 | Target Date | 2026-Q2 |
+| ITIL Practice | Information Security Management, Continual Improvement |
+| Guiding Principle | Focus on Value — security incidents are costly; prevention is high-value |
 
 ### Description
 
@@ -336,16 +351,18 @@ Improved awareness reduces:
 ### CIR-007 — CMDB Review & Cleanup
 
 | Field | Details |
-|---|---|
+|:------|:--------|
 | Improvement ID | CIR-007 |
 | Priority | Medium |
 | Status | Not Started |
 | Owner | Senior IT Analyst |
 | Target Date | 2026-03-31 |
+| ITIL Practice | Service Configuration Management, IT Asset Management |
+| Guiding Principle | Start Where You Are — assess current state before relying on CMDB data |
 
 ### Description
 
-Conduct a full review of the Configuration Management Database (CMDB).
+Conduct a full review of the Configuration Management Database (CMDB) - no formal review in 8 months.
 
 Activities include:
 - Removing Stale Records
@@ -356,7 +373,7 @@ Activities include:
 
 ### Business Justification
 
-Accurate CMDB data improves:
+Accurate CMDB data (effective for change and problem management) improves:
 - Change Assessments
 - Incident Troubleshooting
 - Impact Analysis
@@ -366,7 +383,7 @@ Accurate CMDB data improves:
 ### Success Metrics
 
 | Metric | Target |
-|---|---|
+|:-------|:-------|
 | CMDB Accuracy | >95% |
 | Stale Records Removed | 100% |
 | Asset Reconciliation Completion | Complete |
@@ -382,6 +399,8 @@ Accurate CMDB data improves:
 | Status | Not Started |
 | Owner | IT Manager |
 | Target Date | 2026-04-01 |
+| ITIL Practice | Change Enablement, Continual Improvement |
+| Guiding Principle | Progress Iteratively with Feedback — use each change as a learning opportunity |
 
 ### Description
 
@@ -400,6 +419,10 @@ PIRs will document:
 
 ### Business Justification
 
+Current change failure is ~12%. 
+
+PIR data will identify patterns and improve future change quality. Lessons learned feed directly into the change process improvement.
+
 Structured PIRs support:
 - Better Change Quality
 - Reduced Failure Rates
@@ -410,7 +433,7 @@ Structured PIRs support:
 
 | Metric | Target |
 |:-------|:-------|
-| Change Failure Rate | <5% |
+| Change Failure Rate | <5% within 6 months |
 | PIR Completion Rate | 100% |
 | Repeat Failed Changes | Reduced Significantly |
 
@@ -473,7 +496,7 @@ Key metrics reviewed monthly include:
 
 | Principle | Application |
 |:----------|:------------|
-| Focus On Value | Improvements linked directly to business outcomes |
+| Focus On Value | Improvements linked directly to business outcomes - clear business justification and measurable success metric |
 | Start Where You Are | Existing operational data used as baseline |
 | Progress Iteratively With Feedback | Improvements reviewed and adjusted continuously |
 | Collaborate And Promote Visibility | Regular review meetings increase transparency |
