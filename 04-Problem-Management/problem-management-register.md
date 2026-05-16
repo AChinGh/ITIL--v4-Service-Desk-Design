@@ -452,18 +452,7 @@ CIR-008 — Post-implementation review for normal changes (addresses PRB-004 roo
 
 ---
 
-### 13. ITIL v4 Guiding Principles Applied
-
-| Principle	| Application |
-|:----------|:------------|
-| Focus on Value	| Reducing recurring incidents restores productivity |
-| Think and Work Holistically	| Problems analyzed across systems and services |
-| Progress Iteratively with Feedback	| RCA updated continuously during investigation |
-| Start Where You Are	| Existing ticket trends used to identify recurring issues (PRB-003 and PRB-005 identified through trend analysis of existing ticket data) |
-
----
-
-### 14. Success Metrics
+### 13. Success Metrics
 
 | Metric | Baseline | Target | Measurement Frequency |
 |:-------|:---------|:-------|:----------------------|
@@ -472,6 +461,17 @@ CIR-008 — Post-implementation review for normal changes (addresses PRB-004 roo
 | Problems resolved within 30 days of RCA | Not currently tracked | >80% | Monthly |
 | Recurring incidents (same root cause) | 8% of ticket volume | <3% | Monthly |
 | Major incidents with PIR-raised problem record | 100% | 100% | Per incident |
+
+---
+
+### 14. ITIL v4 Guiding Principles Applied
+
+| Principle	| Application |
+|:----------|:------------|
+| Focus on Value	| Reducing recurring incidents restores productivity |
+| Think and Work Holistically	| Problems analyzed across systems and services |
+| Progress Iteratively with Feedback	| RCA updated continuously during investigation |
+| Start Where You Are	| Existing ticket trends used to identify recurring issues (PRB-003 and PRB-005 identified through trend analysis of existing ticket data) |
 
 ---
 
