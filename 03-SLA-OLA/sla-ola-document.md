@@ -134,7 +134,6 @@ Root cause remediation may continue separately under Problem Management.
 | File Storage / Shared Drives | 99.5% uptime | Monthly |
 | Business Applications (CRM, ERP) | 99.0% uptime | Monthly |
 | VPN Services | 99.0% uptime | Monthly |
-| Businesss Applications | 99.0% uptime | Monthly |
 
 ##
 
@@ -170,9 +169,9 @@ If SLA targets are not being met:
 ### 4.6. Major Incident Management
 
 A Major Incident is declared when:
-- critical business operations are unavailable
-- more than 50 users are affected
-- organization-wide outage occurs
+- Critical business operations are unavailable
+- More than 50 users are affected
+- Organization-wide outage occurs
 
 Major Incident Targets
 | Activity	| Target |
@@ -220,6 +219,15 @@ Maintenance Standards
 
 ##
 
+### 4.9.1. Success Metric
+
+| Metric | Baseline (Current) | SLA Target |
+| P1 response within SLA | 91% | 100% |
+| P2 response within SLA | 87% | 98% |
+| First contact resolution | 72% | >80% |
+| SLA breach rate | 8% | <2% |
+| Customer satisfaction score | Not currently measured | >85% |
+
 ### 4.10. Customer Responsibilities
 
 Business users are expected to:
@@ -246,6 +254,8 @@ To avoid this:
 ---
 
 ## PART B: OPERATIONAL LEVEL AGREEMENT (OLA)
+
+**Provider:** Richmond Solutions Networking Team (internal)
 
 **Provider:** Richmond Solutions Networking Team (internal)  
 **Customer:** IT Service Desk Team  
@@ -306,7 +316,7 @@ coordinate resolution between teams.
 
 ##
 
-### 5.5. Change Coordination Responsibilities
+### 5.6. Change Coordination Responsibilities
 
 Internal IT teams must:
 - Review change schedules weekly
@@ -316,7 +326,7 @@ Internal IT teams must:
 
 ##
 
-### 5.6. Security & Compliance Considerations
+### 5.7. Security & Compliance Considerations
 
 Operational support activities must:
 - Follow least privilege principles
@@ -332,7 +342,7 @@ Administrative actions affecting:
 
 ##
 
-### 5.7. Continual Improvement Integration
+### 5.8. Continual Improvement Integration
 
 SLA and OLA performance data feed into:
 - Continual Improvement Register
@@ -348,26 +358,32 @@ Improvement opportunities are identified through:
 
 ##
 
-### 5.8. Related Documents
+### 5.9. Related Documents
 - Incident Management Process
 - Service Request Catalogue
 - Problem Management Register
 - Change Management Procedure
 - Continual Improvement Register
 
-## 
-
-### Watermelon SLA — Anti-Pattern Note
-
-A **Watermelon SLA** occurs when metrics appear green (targets met) but the customer is actually unhappy. 
-
-To prevent this at Richmond Solutions, SLA performance is reviewed alongside quarterly user satisfaction surveys. 
-
-If survey scores are low despite targets being met, the metrics themselves are reviewed for relevance.
-
 ##
 
-### Review & Approval
+### 5.10 Underpinning Contracts
+
+The following external supplier contracts underpin delivery of the commitments 
+in this SLA:
+
+| Supplier | Service | Contract Type |
+|:---------|:--------|:--------------|
+| Internet Service Provider | Core internet connectivity | UC |
+| Microsoft (via CSP) | Microsoft 365 services | UC |
+| VPN Vendor | VPN gateway services | UC |
+
+SLA availability targets for affected services are contingent on supplier 
+performance within contracted terms.
+
+---
+
+### 6. Review & Approval
 
 | Role | Name | Date |
 |:-----|:-----|:-----|
@@ -375,14 +391,22 @@ If survey scores are low despite targets being met, the metrics themselves are r
 | HR Representative | | January 2026 |
 | Department Head Representative | | January 2026 |
 
-##
+---
 
-### ITIL v4 Guiding Principles Applied
+### 7. ITIL v4 Guiding Principles Applied
 
 | Principle | Application |
 |:----------|:------------|
-| Focus on Value | SLA targets defined from business perspective — what matters to users, Service targets prioritize business continuity and productivity |
+| Focus on Value | SLA targets defined from the business perspective — measuring what matters to users, not just what is easy to measure |
 | Collaborate and Promote Visibility | OLA ensures internal teams share clear responsibilities (clear operational ownership) |
 | Keep It Simple and Practical | SLA uses plain language — avoids technical jargon, Targets are measurable and operationally realistic |
-| Start Where You Are | Targets based on realistic current capability, not aspirational figures |
+| Start Where You Are | Targets based on realistic current capability, not aspirational figures that cannot be met |
 
+---
+
+### 8. Change Log
+
+| Version | Date | Author | Changes |
+|:--------|:-----|:-------|:--------|
+| 1.0 | January 2026 | IT Manager | Initial SLA/OLA document |
+| 1.1 | February 2026 | IT Manager | Added customer responsibilities, planned maintenance standards, security and compliance section, Watermelon SLA prevention, major incident targets table |
