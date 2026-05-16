@@ -283,6 +283,7 @@ Example triggers:
 | Major incidents per quarter | <2 |
 | User satisfaction (post-P1/P2) | >85% |
 
+---
 
 ### 10. Related Documents
 
@@ -292,3 +293,11 @@ Example triggers:
 - Change Management Procedure
 - Continual Improvement Register
 
+---
+
+### 11. Change Log
+
+| Version | Date | Author | Changes |
+|:--------|:-----|:-------|:--------|
+| 1.0 | January 2026 | Service Desk Team | Initial document |
+| 1.1 | February 2026 | Service Desk Team | Added major incident roles, updated escalation model, added SLA integration section |
