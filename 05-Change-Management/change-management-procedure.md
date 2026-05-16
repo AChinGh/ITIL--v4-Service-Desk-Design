@@ -149,12 +149,13 @@ The CAB reviews high-risk changes before implementation.
 | Standard CAB Meeting | Tuesdays — 10:00 AM EST |
 | Emergency CAB | As required |
 
-Agenda:
-1. Review of changes submitted since last meeting
-2. Risk assessment for normal changes
-3. Change schedule review
-4. Post-implementation review of recent changes
-5. Failed/rejected change debrief
+| # | Agenda Item |
+|:--|:------------|
+| 1 | Review changes submitted since last meeting |
+| 2 | Risk assessment for normal changes |
+| 3 | Change schedule review |
+| 4 | Post-implementation review of recent changes |
+| 5 | Failed and rejected change debrief |
 
 ---
 
@@ -193,6 +194,47 @@ All non-standard changes must include:
 - Rollback procedure
 - Risk assessment
 - Testing details
+
+##
+
+### 9.1.1. Change Request Form Template
+
+| Field | Detail |
+|:------|:-------|
+| Change ID | [Auto-generated] |
+| Date Submitted | |
+| Submitted By | |
+| Change Title | |
+| Change Type | Standard / Normal / Emergency |
+| Priority | Low / Medium / High / Critical |
+| Business Justification | |
+| Affected Systems | |
+| Users Affected | |
+| Risk Level | Low / Medium / High |
+| Implementation Plan | |
+| Rollback Plan | |
+| Testing Details | |
+| Scheduled Date | |
+| Maintenance Window Required | Yes / No |
+| CAB Approval Required | Yes / No |
+
+**Approvals**
+
+| Role | Name | Date |
+|:-----|:-----|:-----|
+| IT Manager | | |
+| CAB Chair (if applicable) | | |
+| Department Head (if required) | | |
+
+**Post-Implementation**
+
+| Field | Detail |
+|:------|:-------|
+| Implementation Successful | Yes / No / Partial |
+| Issues Encountered | |
+| Rollback Required | Yes / No |
+| PIR Required | Yes / No |
+| PIR Scheduled | |
 
 ##
 
@@ -263,7 +305,7 @@ IT Manager Initial Review (24 hours)
 CAB Review (if required) — Tuesday meeting
 ↓
 Authorized?
-├── Yes → Schedule on Change Schedule → Implement → PIR → Close
+├── Yes → Schedule on Change Schedule → Implement → Update CMDB → PIR → Close
 └── No  → Return to Requester with Feedback
 ```
 
@@ -313,11 +355,13 @@ Emergency CAB Notification
 Rapid Risk Assessment
 ↓
 Authorized?
-├── Yes → Immediate Implemention → Document Retrospectively (Approval evidence + Rollback Planning) → PIR within 48 hours
+├── Yes → Immediate Implemention → Document Retrospectively → PIR within 48 hours
 └── No  → Escalate / Alternative Approach
 ↓
 Documentation Completion
 ```
+
+**Note:** Retrospective documentation must include: approval evidence, implementation timestamps, rollback assessment, affected systems, and post-implementation validation results. Documentation must be completed within 24 hours of implementation.
 
 ---
 
@@ -472,10 +516,12 @@ Improvement opportunities may include:
 ### 23. Related Documents
 
 - Incident Management Process  — failed changes that cause incidents trigger incident procedures
-- Service Request Catalogue  — CMDB updated after every implemented change
-- SLA & OLA Document  
+- Service Request Catalogue  — standard changes originate from catalogue requests
+- SLA & OLA Document  — change targets must align with SLA commitments
 - Problem Management Register  — resolved problems generate change requests for permanent fixes
-- Continual Improvement Register  
+- Continual Improvement Register  — PIR findings drive CIR entries
+- Service Configuration Management — CMDB updated after every implemented change
+
 
 ---
 
