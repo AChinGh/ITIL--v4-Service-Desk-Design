@@ -222,6 +222,7 @@ Maintenance Standards
 ### 4.9.1. Success Metric
 
 | Metric | Baseline (Current) | SLA Target |
+|:-------|:-------------------|:-----------|
 | P1 response within SLA | 91% | 100% |
 | P2 response within SLA | 87% | 98% |
 | First contact resolution | 72% | >80% |
@@ -257,10 +258,12 @@ To avoid this:
 
 **Provider:** Richmond Solutions Networking Team (internal)
 
-**Provider:** Richmond Solutions Networking Team (internal)  
 **Customer:** IT Service Desk Team  
+
 **Effective Date:** January 2026  
+
 **Purpose:** Define what the networking team commits to deliver in support of the SLA above  
+
 **Review Cycle:** Quarterly
 
 ---
