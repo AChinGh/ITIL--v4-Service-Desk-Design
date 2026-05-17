@@ -1,9 +1,13 @@
 # Service Request Catalogue
+
 ### Richmond Solutions Inc. — IT Service Management
 
 **Document Version:** 1.1  
+
 **Last Updated:** 2026  
+
 **Owner:** IT Support Team  
+
 **ITIL Practice Area:** Service Request Management, Service Desk, Service Level Management
 
 ---
