@@ -2,14 +2,16 @@
 ### Richmond Solutions Inc. — IT Service Management
 
 **Document Version:** 1.2
+
 **Last Updated:** 2026
+
 **Owner:** IT Support Team
-**Practice Area:** Service Request Management, IT Asset Management,
-Information Security Management, Continual Improvement
+
+**Practice Area:** Service Request Management, IT Asset Management, Information Security Management, Continual Improvement
 
 ---
 
-## 1. Purpose
+### 1. Purpose
 
 The purpose of this procedure is to standardize and control the onboarding
 process for all new users at Richmond Solutions Inc.
@@ -26,24 +28,20 @@ This ensures:
 
 ---
 
-## 2. Scope
+### 2. Scope
 
 This process applies to:
-
 - full-time employees
 - contractors
 - temporary staff
 - remote workers
 - interns (if applicable)
 
-> **Note:** The reverse of this process — user offboarding and account
-> deprovisioning — is managed separately. Offboarding must be initiated by
-> HR on or before the employee's last working day to ensure timely access
-> revocation in line with Information Security Management controls.
+> **Note:** The reverse of this process — user offboarding and account deprovisioning — is managed separately. Offboarding must be initiated by HR on or before the employee's last working day to ensure timely access revocation in line with Information Security Management controls.
 
 ---
 
-## 3. Onboarding Workflow Overview
+### 3. Onboarding Workflow Overview
 
 ```text
 HR Request Submitted (via hr@richmondsolutions.ca or service portal)
@@ -67,7 +65,7 @@ Ticket Closure
 
 ---
 
-## 4. Identity Provisioning
+### 4. Identity Provisioning
 
 Identity provisioning is the first stage of onboarding and establishes
 the user's digital identity.
@@ -78,6 +76,8 @@ the user's digital identity.
 - assign appropriate Microsoft 365 licence
 - configure Multi-Factor Authentication (MFA)
 - apply identity security policies
+
+##
 
 ### 4.2 Identity Controls
 
@@ -90,7 +90,7 @@ the user's digital identity.
 
 ---
 
-## 5. Endpoint Setup
+### 5. Endpoint Setup
 
 Endpoint setup ensures the user receives a secure and compliant workstation.
 
@@ -102,6 +102,8 @@ Endpoint setup ensures the user receives a secure and compliant workstation.
 - join device to domain / Entra Join
 - install endpoint protection agent
 
+##
+
 ### 5.2 Security Baseline Includes
 
 - disk encryption enabled
@@ -112,7 +114,7 @@ Endpoint setup ensures the user receives a secure and compliant workstation.
 
 ---
 
-## 6. Access Assignment
+### 6. Access Assignment
 
 Access is granted based on role and least-privilege principles.
 
@@ -122,16 +124,19 @@ Access is granted based on role and least-privilege principles.
 - email mailbox activation
 - MFA enforcement validation
 
+##
+
 ### 6.2 File & Collaboration Access
 
 - shared drives assigned based on department
 - role-based folder permissions applied
 - collaboration groups added
 
+##
+
 ### 6.3 Department Application Access
 
 Examples:
-
 - CRM systems
 - finance applications
 - HR portals
@@ -139,10 +144,12 @@ Examples:
 
 Access is granted only after manager approval confirmation.
 
+##
+
 ### 6.4 User Type Access Differentiation
 
 | User Type | Account Expiry | Device | Access Restrictions |
-|-----------|---------------|--------|---------------------|
+|:----------|:---------------|:-------|:--------------------|
 | Full-time employee | No expiry | Corporate laptop | Full role-based access |
 | Contractor | Set to contract end date | Corporate or BYOD | Restricted to project scope only |
 | Temporary staff | Set to assignment end date | Corporate | Standard role, no sensitive systems |
@@ -150,10 +157,9 @@ Access is granted only after manager approval confirmation.
 
 ---
 
-## 7. Validation Stage
+### 7. Validation Stage
 
-Validation ensures all onboarding steps are completed correctly before
-user activation.
+Validation ensures all onboarding steps are completed correctly before user activation.
 
 ### 7.1 Validation Tasks
 
@@ -164,10 +170,11 @@ user activation.
 - confirm shared drive visibility
 - confirm application access
 
+##
+
 ### 7.2 Acceptance Criteria
 
 Onboarding is not complete unless:
-
 - all authentication systems function correctly
 - email is accessible
 - device login succeeds
@@ -175,10 +182,9 @@ Onboarding is not complete unless:
 
 ---
 
-## 8. User Activation & Handover
+### 8. User Activation & Handover
 
 Once validation is complete:
-
 - send welcome instructions to user
 - provide login credentials securely
 - share IT usage guidelines
@@ -187,7 +193,7 @@ Once validation is complete:
 
 ---
 
-## 9. Full Onboarding Workflow (End-to-End)
+### 9. Full Onboarding Workflow (End-to-End)
 
 ```text
 HR Submission
@@ -223,7 +229,7 @@ Ticket Closure
 
 ---
 
-## 10. Roles & Responsibilities
+### 10. Roles & Responsibilities
 
 | Role | Responsibility |
 |------|----------------|
@@ -235,10 +241,9 @@ Ticket Closure
 
 ---
 
-## 11. Escalation Criteria
+### 11. Escalation Criteria
 
 Escalate onboarding issues when:
-
 - start date is at risk
 - hardware is unavailable
 - licensing constraints exist
@@ -248,15 +253,12 @@ Escalate onboarding issues when:
 
 ---
 
-## 12. Service Targets
+### 12. Service Targets
 
-> **Lead time requirement:** IT requires a minimum of 5 business days
-> notice before a new hire's start date to guarantee full onboarding
-> completion. Requests submitted with less than 5 business days notice
-> are subject to best-effort delivery and may result in delayed access.
+> **Lead time requirement:** IT requires a minimum of 5 business days notice before a new hire's start date to guarantee full onboarding completion. Requests submitted with less than 5 business days notice are subject to best-effort delivery and may result in delayed access.
 
 | Activity | Target | Notes |
-|----------|--------|-------|
+|:---------|:-------|:------|
 | Account creation | Same business day | Upon receipt of approved request |
 | Laptop assignment | 1–3 business days | Same-day possible subject to asset pool availability |
 | Access provisioning | 1 business day after approval | Subject to manager approval being received |
@@ -264,23 +266,21 @@ Escalate onboarding issues when:
 
 ---
 
-## 13. Security & Compliance Controls
+### 13. Security & Compliance Controls
 
 Onboarding must enforce:
-
 - least privilege access model
 - MFA enforcement for all users
 - Role-Based Access Control (RBAC)
-- audit logging of all identity actions (Microsoft Entra audit logs —
-  reviewed quarterly by IT Manager)
+- audit logging of all identity actions (Microsoft Entra audit logs — reviewed quarterly by IT Manager)
 - approved software baseline only
 
 ---
 
-## 14. Success Metrics
+### 14. Success Metrics
 
 | Metric | Baseline | Target | Measurement Frequency |
-|--------|----------|--------|-----------------------|
+|:-------|:---------|:-------|:----------------------|
 | Onboarding completed before start date | 78% (current — manual process) | 100% | Per onboarding |
 | Failed login issues after onboarding | 8% of onboardings | <2% | Monthly |
 | Access misconfiguration rate | Not currently tracked | <1% | Monthly |
@@ -288,10 +288,10 @@ Onboarding must enforce:
 
 ---
 
-## 15. Relationship to ITIL Practices
+### 15. Relationship to ITIL Practices
 
 | ITIL v4 Practice | How This Document Relates |
-|-----------------|--------------------------|
+|:-----------------|:--------------------------|
 | Service Request Management | Onboarding is triggered by a service request from HR |
 | IT Asset Management | Laptop assignment and asset register updates throughout lifecycle |
 | Service Configuration Management | Device joined to domain — CI record created in CMDB |
@@ -301,15 +301,13 @@ Onboarding must enforce:
 
 ---
 
-## 16. Continual Improvement Integration
+### 16. Continual Improvement Integration
 
-The following onboarding improvements are actively tracked in the
-Richmond Solutions Continual Improvement Register:
+The following onboarding improvements are actively tracked in the Richmond Solutions Continual Improvement Register:
 
 - **CIR-005** — Automated user onboarding workflow (target: 2026-Q3)
 
 Additional improvement opportunities identified from onboarding metrics:
-
 - standardized role-based access templates by department
 - automated licence assignment based on department
 - pre-built device images by role to reduce endpoint setup time
@@ -317,10 +315,10 @@ Additional improvement opportunities identified from onboarding metrics:
 
 ---
 
-## 17. ITIL v4 Guiding Principles Applied
+### 17. ITIL v4 Guiding Principles Applied
 
 | Guiding Principle | Application |
-|------------------|-------------|
+|:------------------|:------------|
 | Focus on Value | Structured onboarding ensures users are productive from day one |
 | Start Where You Are | Workflow built from existing provisioning steps already performed manually |
 | Progress Iteratively with Feedback | Onboarding metrics reviewed monthly — process improved each cycle |
@@ -330,7 +328,7 @@ Additional improvement opportunities identified from onboarding metrics:
 
 ---
 
-## 18. Related Documents
+### 18. Related Documents
 
 - Incident Management Process
 - Service Request Catalogue
@@ -343,18 +341,10 @@ Additional improvement opportunities identified from onboarding metrics:
 
 ---
 
-## Document Change Log
+### Change Log
 
 | Version | Date | Author | Changes |
-|---------|------|--------|---------|
+|:--------|:-----|:-------|:--------|
 | 1.0 | January 2026 | IT Support Team | Initial document |
-| 1.1 | February 2026 | IT Support Team | Added validation acceptance
-criteria, security baseline detail, escalation criteria section |
-| 1.2 | February 2026 | IT Support Team | Fixed capitalisation throughout,
-corrected ITIL practice names in Section 15, added contractor access
-differentiation table, added lead time requirement, added offboarding
-reference, added audit logging detail, added baselines to metrics table,
-added measurement frequency column, linked CIR-005 in Section 16,
-replaced summary with guiding principles table, added change log,
-corrected Section 3 workflow to reflect manual ticket creation,
-added laptop availability note to Section 12 |
+| 1.1 | February 2026 | IT Support Team | Added validation acceptance criteria, security baseline detail, escalation criteria section |
+| 1.2 | February 2026 | IT Support Team | Fixed capitalisation throughout, corrected ITIL practice names in Section 15, added contractor access differentiation table, added lead time requirement, added offboarding reference, added audit logging detail, added baselines to metrics table, added measurement frequency column, linked CIR-005 in Section 16, replaced summary with guiding principles table, added change log, corrected Section 3 workflow to reflect manual ticket creation, added laptop availability note to Section 12 |
