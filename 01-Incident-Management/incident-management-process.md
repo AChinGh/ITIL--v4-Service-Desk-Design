@@ -102,7 +102,7 @@ Incidents may be detected via:
 Standard channels:
 - Email: itsupport@richmondsolutions.ca
 - Phone: Extension 100
-- Portal: service.richmondsolutions.ca
+- Portal: portal.richmondsolutions.ca
 
 ##
 
