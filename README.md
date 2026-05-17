@@ -69,9 +69,9 @@ Core Technologies
 | 04 | [Problem-Management-Register](./04-Problem-Management/problem-management-register.md) | Root cause analysis and recurring incident management | Problem Management, Continual Improvement |
 | 05 | [Change-Management-Procedure](./05-Change-Management/change-management-procedure.md) | Controlled implementation of IT changes | Change Enablement, Release Management |
 | 06 | [Continual-Improvement-Register](./06-Continual-Improvement/continual-improvement-register.md) | Service optimization initiatives and operational metrics | Continual Improvement, Service Level Management |
-| 07 | [Sample-Tickets](./07-Sample-Tickets/sample-ticket-catalogue.md) | ??? | Realistic incident, request, and change ticket examples |
-| 08| [Knowledge-Base](./08-Knowledge-Base/knowledge-base.md) | ??? | Troubleshooting documentation and support procedures |
-| 09 | [Onboarding-Workflow](./09-Onboarding-Workflow/onboarding-workflow.md) | ??? | New user provisioning and onboarding process |
+| 07 | [Sample-Tickets](./07-Sample-Tickets/sample-ticket-catalogue.md) | Realistic sample IT service tickets demonstrating operational workflows | Realistic incident, request, and change ticket examples |
+| 08| [Knowledge-Base](./08-Knowledge-Base/knowledge-base.md) | Record accurate  operational knowledge | Troubleshooting documentation and support procedures |
+| 09 | [Onboarding-Workflow](./09-Onboarding-Workflow/onboarding-workflow.md) | Standardize and control the onboarding process | New user provisioning and onboarding process |
 
 ##
 
