@@ -1,10 +1,13 @@
 # ITIL-v4-Service-Desk-Design
+
 ITIL v4 IT service management framework for a simulated Ontario SME
 
 
 ![ITIL v4](https://img.shields.io/badge/ITIL-v4%20Foundation-blue)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 ![Deliverables](https://img.shields.io/badge/Deliverables-9-orange)
+![Practices](https://img.shields.io/badge/ITIL%20Practices-13%20of%2015-blue)
+
 
 ---
 
@@ -24,7 +27,7 @@ The project demonstrates practical IT support and IT service management operatio
 - Knowledge base development
 - User onboarding procedures
 
-The repository is designed to reflect realistic SMB IT operations rather than enterprise-scale infrastructure.
+The repository is designed to reflect realistic SME IT operations rather than enterprise-scale infrastructure.
 
 ---
 
@@ -69,9 +72,10 @@ Core Technologies
 | 04 | [Problem-Management-Register](./04-Problem-Management/problem-management-register.md) | Root cause analysis and recurring incident management | Problem Management, Continual Improvement |
 | 05 | [Change-Management-Procedure](./05-Change-Management/change-management-procedure.md) | Controlled implementation of IT changes | Change Enablement, Release Management |
 | 06 | [Continual-Improvement-Register](./06-Continual-Improvement/continual-improvement-register.md) | Service optimization initiatives and operational metrics | Continual Improvement, Service Level Management |
-| 07 | [Sample-Tickets](./07-Sample-Tickets/sample-ticket-catalogue.md) | Realistic sample IT service tickets demonstrating operational workflows | Realistic incident, request, and change ticket examples |
-| 08| [Knowledge-Base](./08-Knowledge-Base/knowledge-base.md) | Record accurate  operational knowledge | Troubleshooting documentation and support procedures |
-| 09 | [Onboarding-Workflow](./09-Onboarding-Workflow/onboarding-workflow.md) | Standardize and control the onboarding process | New user provisioning and onboarding process |
+| 07 | [Sample-Tickets](./07-Sample-Tickets/sample-ticket-catalogue.md) | Realistic sample IT service tickets demonstrating operational workflows | Incident Management, Service Request Management, Service Desk |
+| 08| [Knowledge-Base](./08-Knowledge-Base/knowledge-base.md) | Troubleshooting knowledge articles and KB management framework | Knowledge Management, Service Desk, Incident Management |
+| 09 | [Onboarding-Workflow](./09-Onboarding-Workflow/onboarding-workflow.md) | End-to-end new user provisioning and identity onboarding procedure | Service Request Management, IT Asset Management, Information Security Management |
+| README | README | 
 
 ##
 
@@ -110,7 +114,6 @@ Operational Documentation
 Example Operational Scenarios
 
 The repository includes realistic support scenarios such as:
-
 - VPN instability during Teams meetings
 - Outlook startup failures
 - Shared drive connectivity issues
@@ -122,16 +125,17 @@ The repository includes realistic support scenarios such as:
 
 ## 
 
-### Purpose of This Project
+### Purpose & Goals
 
-This portfolio project was built to simulate day-to-day responsibilities commonly performed in:
-- IT Help Desk
-- Service Desk Analyst
-- Junior IT Support
-- Managed Service Provider (MSP) environments
-- IT Operations support teams
+This portfolio project was built to simulate day-to-day responsibilities commonly performed in IT help desk, service desk analyst, and junior IT support roles in SME and MSP environments.
 
-The goal is to demonstrate practical operational thinking, structured troubleshooting methodology, and ITSM process understanding within a realistic SMB support environment.
+The repository demonstrates:
+- Operational IT support realism
+- Process-oriented troubleshooting methodology
+- Structured ITSM documentation
+- Practical application of ITIL v4 principles
+- Communication and escalation workflows
+- IAM-adjacent operational thinking
 
 ##
 
@@ -180,31 +184,52 @@ Service optimization initiatives driven by:
 
 ##
 
-### Repository Goals
+### ITIL v4 Practices Demonstrated
 
-This repository was designed to demonstrate:
-- Operational IT support realism
-- Process-oriented troubleshooting
-- Structured IT documentation
-- Practical ITSM implementation
-- Communication and escalation workflows
+- ✅ Service Desk
+- ✅ Incident Management
+- ✅ Service Request Management
+- ✅ Monitoring & Event Management
+- ✅ Problem Management
+- ✅ Change Enablement
+- ✅ Release Management
+- ✅ Service Level Management
+- ✅ Relationship Management
+- ✅ Continual Improvement
+- ✅ Knowledge Management
+- ✅ IT Asset Management
+- ✅ Information Security Management
+
+##
+
+### ITIL v4 Framework Applied
+
+All documents in this repository are aligned to the ITIL v4
+Service Value System (SVS), including:
+
+- **7 Guiding Principles** — applied to all design decisions
+- **4 Dimensions of Service Management** — considered across all documents
+- **Service Value Chain** — operational workflows mapped to SVC activities
+- **Continual Improvement Model** — drives the CIR and all improvement initiatives
 
 ##
 
 ### Author
 
-Andrew
+**Andrew**
 
-Ontario, Canada
+Richmond Hill, Ontario, Canada
 
-Focused on:
-- IT Support
-- IT Service Management
-- Identity & Access Management (IAM)
-- Governance, Risk, and Compliance (GRC)
-- Cybersecurity operations
+Entry-level IT professional transitioning into cybersecurity andIT service management.
 
-## 
+**Certifications:**
+- CompTIA Network+
+- CompTIA Security+
+- Microsoft Azure AZ-900
+- ITIL v4 Foundation *(in progress)*
+
+**Career Path:** Help Desk → IAM → GRC / Data Privacy
+
 
 ### Disclaimer
 
