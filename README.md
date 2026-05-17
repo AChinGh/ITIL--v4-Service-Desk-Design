@@ -4,7 +4,7 @@ ITIL v4 IT service management framework for a simulated Ontario SME
 
 ![ITIL v4](https://img.shields.io/badge/ITIL-v4%20Foundation-blue)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-![Deliverables](https://img.shields.io/badge/Deliverables-6-orange)
+![Deliverables](https://img.shields.io/badge/Deliverables-9-orange)
 
 ---
 
