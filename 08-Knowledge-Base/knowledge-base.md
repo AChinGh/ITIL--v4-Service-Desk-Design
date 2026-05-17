@@ -1,9 +1,13 @@
 # Knowledge Management Practice
+
 ### Richmond Solutions Inc. — IT Service Management
 
 **Document Version:** 1.3
+
 **Last Updated:** 2026
+
 **Owner:** Service Desk Team
+
 **Practice Area:** Knowledge Management, Service Desk, Incident Management
 
 ---
