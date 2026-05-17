@@ -10,7 +10,7 @@ ITIL v4 IT service management framework for a simulated Ontario SME
 
 ### Overview
 
-This repository simulates a real-world IT service desk environment for Northgate Solutions Inc., a fictional 150-user professional services organization based in Ontario, Canada.
+This repository simulates a real-world IT service desk environment for Richmond Solutions Inc., a fictional 150-user professional services organization based in Ontario, Canada.
 
 The project demonstrates practical IT support and IT service management operations aligned with modern ITSM practices, including:
 
